@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Riconoscitore_2_Modi.srcs/sources_1/new/Riconoscitore_Mealy_2_Modi_01.vhd" \
+"../../../../Riconoscitore_2_Modi.srcs/sim_1/new/Riconoscitore_Mealy_2_Modi_01_TB.vhd" \
+
+# Do not sort compile order
+nosort

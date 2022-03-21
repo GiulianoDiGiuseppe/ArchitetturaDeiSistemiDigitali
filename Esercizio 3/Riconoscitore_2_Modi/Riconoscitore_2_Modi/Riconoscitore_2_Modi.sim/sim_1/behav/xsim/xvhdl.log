@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/giuseppericcio/Documenti/ASD/Riconoscitore_2_Modi/Riconoscitore_2_Modi.srcs/sources_1/new/Riconoscitore_Mealy_2_Modi_01.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Riconoscitore_Mealy_2_Modi_01'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/giuseppericcio/Documenti/ASD/Riconoscitore_2_Modi/Riconoscitore_2_Modi.srcs/sim_1/new/Riconoscitore_Mealy_2_Modi_01_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Riconoscitore_Mealy_2_Modi_01_TB'

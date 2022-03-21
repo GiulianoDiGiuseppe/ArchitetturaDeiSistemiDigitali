@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Oct 27 12:59:42 2021
+# Process ID: 11411
+# Current directory: /home/giuseppericcio/Documenti/ASD/Riconoscitore_2_Modi_copia/Riconoscitore_2_Modi.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/giuseppericcio/Documenti/ASD/Riconoscitore_2_Modi_copia/Riconoscitore_2_Modi.sim/sim_1/behav/xsim/xsim.dir/Riconoscitore_Mealy_2_Modi_01_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/giuseppericcio/Documenti/ASD/Riconoscitore_2_Modi_copia/Riconoscitore_2_Modi.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/giuseppericcio/Documenti/ASD/Riconoscitore_2_Modi_copia/Riconoscitore_2_Modi.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/giuseppericcio/Documenti/ASD/Riconoscitore_2_Modi_copia/Riconoscitore_2_Modi.sim/sim_1/behav/xsim/xsim.dir/Riconoscitore_Mealy_2_Modi_01_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/giuseppericcio/Documenti/ASD/Riconoscitore_2_Modi_copia/Riconoscitore_2_Modi.sim/sim_1/behav/xsim/xsim.dir/Riconoscitore_Mealy_2_Modi_01_TB_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Oct 27 12:59:45 2021. For additional details about this file, please refer to the WebTalk help file at /tools/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct 27 12:59:45 2021...
