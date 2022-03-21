@@ -1,0 +1,19 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto bc1142f89f514aa6bf7fbfdbc25e633c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rete_16_4_TB_behav xil_defaultlib.rete_16_4_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture rtl of entity xil_defaultlib.multiplexer_2_1 [multiplexer_2_1_default]
+Compiling architecture structural of entity xil_defaultlib.multiplexer_4_1 [multiplexer_4_1_default]
+Compiling architecture structural of entity xil_defaultlib.multiplexer_16_1 [multiplexer_16_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.demultiplexer_1_4 [demultiplexer_1_4_default]
+Compiling architecture structural of entity xil_defaultlib.rete_16_4 [rete_16_4_default]
+Compiling architecture behavorial of entity xil_defaultlib.rete_16_4_tb
+Built simulation snapshot rete_16_4_TB_behav

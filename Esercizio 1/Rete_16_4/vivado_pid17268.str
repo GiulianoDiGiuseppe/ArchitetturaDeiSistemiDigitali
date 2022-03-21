@@ -1,0 +1,142 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 17268
+License: Customer
+
+Current time: 	Mon Feb 14 11:28:58 CET 2022
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 343 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	digig
+User home directory: C:/Users/digig
+User working directory: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4
+User country: 	IT
+User language: 	it
+User locale: 	it_IT
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/digig/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/digig/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/digig/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4/vivado.log
+Vivado journal file location: 	C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4/vivado.jou
+Engine tmp dir: 	C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4/.Xil/Vivado-17268-ACER-Giuliano
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	158 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 636 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 104 MB (+106943kb) [00:00:16]
+// [Engine Memory]: 596 MB (+473704kb) [00:00:16]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\digig\OneDrive - Università di Napoli Federico II\Desktop\ARC\ProgettoASD_2021-22-main\Esercizio 1\Rete_16_4\Rete_16_4.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4/Rete_16_4.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4' 
+// HMemoryUtils.trashcanNow. Engine heap size: 656 MB. GUI used memory: 49 MB. Current time: 2/14/22, 11:29:00 AM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4/Rete_16_4.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4' INFO: [Project 1-313] Project file moved from 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 1/Rete_16_4' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 767 MB (+148013kb) [00:00:31]
+// WARNING: HEventQueue.dispatchEvent() is taking  9433 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 54 MB. Current time: 2/14/22, 11:29:19 AM CET
+// Tcl Message: open_project: Time (s): cpu = 00:00:40 ; elapsed = 00:00:22 . Memory (MB): peak = 817.289 ; gain = 178.008 
+// Project name: Rete_16_4; location: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4; part: xc7a100tcsg324-1
+// [GUI Memory]: 112 MB (+2799kb) [00:00:39]
+dismissDialog("Open Project"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 804 MB. GUI used memory: 53 MB. Current time: 2/14/22, 11:29:45 AM CET
+// Elapsed time: 45 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd)]", 1); // B (F, cl)
+// PAPropertyPanels.initPanels (multiplexer_16_1.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux0_3[0].m : multiplexer_4_1(Structural) (multiplexer_4_1.vhd)]", 4, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// [Engine Memory]: 811 MB (+6055kb) [00:01:31]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux0_3[0].m : multiplexer_4_1(Structural) (multiplexer_4_1.vhd)]", 4, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux0_3[0].m : multiplexer_4_1(Structural) (multiplexer_4_1.vhd), mux0_1[0].m : multiplexer_2_1(rtl) (multiplexer_2_1.vhd)]", 6, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 25 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux0_3[0].m : multiplexer_4_1(Structural) (multiplexer_4_1.vhd)]", 4); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux4 : multiplexer_4_1(Structural) (multiplexer_4_1.vhd)]", 3, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux0_3[0].m : multiplexer_4_1(Structural) (multiplexer_4_1.vhd)]", 4, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux0_3[1].m : multiplexer_4_1(Structural) (multiplexer_4_1.vhd)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux0_3[2].m : multiplexer_4_1(Structural) (multiplexer_4_1.vhd)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux0_3[3].m : multiplexer_4_1(Structural) (multiplexer_4_1.vhd)]", 7, true); // B (F, cl) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux4 : multiplexer_4_1(Structural) (multiplexer_4_1.vhd)]", 3); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux0_3[0].m : multiplexer_4_1(Structural) (multiplexer_4_1.vhd)]", 7); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux0_3[0].m : multiplexer_4_1(Structural) (multiplexer_4_1.vhd)]", 7); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rete_16_4(Structural) (rete_16_4.vhd), mux : multiplexer_16_1(Structural) (multiplexer_16_1.vhd), mux4 : multiplexer_4_1(Structural) (multiplexer_4_1.vhd)]", 3); // B (F, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cl): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cl)
+// Tcl Message: synth_design -rtl -part xc7a50ticsg324-1L -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -part xc7a50ticsg324-1L -name rtl_1 Starting synth_design Top: rete_16_4 
+// HMemoryUtils.trashcanNow. Engine heap size: 979 MB. GUI used memory: 57 MB. Current time: 2/14/22, 11:31:00 AM CET
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 333ms to process. Increasing delay to 2000 ms.
+// TclEventType: ELABORATE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 1,175 MB. GUI used memory: 57 MB. Current time: 2/14/22, 11:31:15 AM CET

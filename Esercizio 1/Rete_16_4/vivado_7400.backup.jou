@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Feb 14 11:28:49 2022
+# Process ID: 7400
+# Current directory: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11040 C:\Users\digig\OneDrive - Università di Napoli Federico II\Desktop\ARC\ProgettoASD_2021-22-main\Esercizio 1\Rete_16_4\Rete_16_4.xpr
+# Log file: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4/vivado.log
+# Journal file: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 1/Rete_16_4/Rete_16_4.xpr}
+update_compile_order -fileset sources_1
+
+synth_design -rtl -part xc7a50ticsg324-1L -name rtl_1
