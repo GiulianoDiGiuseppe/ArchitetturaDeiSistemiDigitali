@@ -1,0 +1,7 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 46e719c9e2e6426ba6855d600c24e359 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot PriorityEncoder_TB_behav xil_defaultlib.PriorityEncoder_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <Y> does not exist in entity <PriorityEncoder>.  Please compare the definition of block <PriorityEncoder> to its component declaration and its instantion to detect the mismatch. [C:/Users/sossi/Vivado Projects/Encoder_BCD_10_3/Encoder_BCD_10_3.srcs/sim_1/new/PriorityEncoder_TB.vhd:42]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit priorityencoder_tb in library work failed.

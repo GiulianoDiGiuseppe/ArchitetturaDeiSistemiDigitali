@@ -1,0 +1,15 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Sat Nov  6 12:47:32 2021
+| Host         : LAPTOP-39TMI588 running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file PriorityEncoder_bus_skew_routed.rpt -pb PriorityEncoder_bus_skew_routed.pb -rpx PriorityEncoder_bus_skew_routed.rpx
+| Design       : PriorityEncoder
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

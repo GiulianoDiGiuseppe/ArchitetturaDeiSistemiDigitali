@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Encoder_BCD_10_3.srcs/sources_1/new/Arbiter.vhd" \
+"../../../../Encoder_BCD_10_3.srcs/sources_1/new/Encoder.vhd" \
+"../../../../Encoder_BCD_10_3.srcs/sources_1/new/PriorityEncoder.vhd" \
+"../../../../Encoder_BCD_10_3.srcs/sources_1/new/display.vhd" \
+"../../../../Encoder_BCD_10_3.srcs/sim_1/new/PriorityEncoder_TB.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Oct 27 15:07:51 2021
+# Process ID: 20220
+# Current directory: C:/Users/itama/Desktop/Architettura dei Sistemi Digitali/Encoder_BCD/Encoder_BCD.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/itama/Desktop/Architettura dei Sistemi Digitali/Encoder_BCD/Encoder_BCD.sim/sim_1/behav/xsim/xsim.dir/PriorityEncoder_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/itama/Desktop/Architettura dei Sistemi Digitali/Encoder_BCD/Encoder_BCD.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/itama/Desktop/Architettura dei Sistemi Digitali/Encoder_BCD/Encoder_BCD.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/itama/Desktop/Architettura -notrace
+couldn't read file "C:/Users/itama/Desktop/Architettura": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct 27 15:07:51 2021...
