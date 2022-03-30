@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Shift_Register_S.srcs/sources_1/new/D_and_Mux.vhd" \
+"../../../../Shift_Register_S.srcs/sources_1/new/Flip_Flop_D.vhd" \
+"../../../../Shift_Register_S.srcs/sources_1/new/Mux_8_1.vhd" \
+"../../../../Shift_Register_S.srcs/sources_1/new/Shift_Register.vhd" \
+"../../../../Shift_Register_S.srcs/sim_1/new/Shift_Register_TB.vhd" \
+
+# Do not sort compile order
+nosort

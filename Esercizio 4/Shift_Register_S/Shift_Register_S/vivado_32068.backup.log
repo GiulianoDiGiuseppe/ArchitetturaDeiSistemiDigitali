@@ -1,0 +1,94 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Sat Feb 19 12:48:18 2022
+# Process ID: 32068
+# Current directory: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8956 C:\Users\digig\OneDrive - Università di Napoli Federico II\Desktop\ARC\ProgettoASD_2021-22-main\Esercizio 4\Shift_Register_S\Shift_Register_S\Shift_Register_S.xpr
+# Log file: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/vivado.log
+# Journal file: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S'
+INFO: [Project 1-313] Project file moved from 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 4/Shift_Register_S' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store', nor could it be found using path 'C:/Users/giuse/Documents/Progetti tesina/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 841.430 ; gain = 208.742
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Shift_Register_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Shift_Register_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.srcs/sources_1/new/D_and_Mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'D_and_Mux'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.srcs/sources_1/new/Flip_Flop_D.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Flip_Flop_D'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.srcs/sources_1/new/Mux_8_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux_8_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.srcs/sources_1/new/Shift_Register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Shift_Register'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.srcs/sim_1/new/Shift_Register_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Shift_Register_TB'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.sim/sim_1/behav/xsim'
+"xelab -wto ed8ffb7c523a41978f32398cb2b863fc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Shift_Register_TB_behav xil_defaultlib.Shift_Register_TB -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ed8ffb7c523a41978f32398cb2b863fc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Shift_Register_TB_behav xil_defaultlib.Shift_Register_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_1 [mux_8_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Flip_Flop_D [flip_flop_d_default]
+Compiling architecture structural of entity xil_defaultlib.D_and_Mux [d_and_mux_default]
+Compiling architecture structural of entity xil_defaultlib.Shift_Register [shift_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_register_tb
+Built simulation snapshot Shift_Register_TB_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Shift_Register_TB_behav -key {Behavioral:sim_1:Functional:Shift_Register_TB} -tclbatch {Shift_Register_TB.tcl} -view {{C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.srcs/sim_1/imports/Shift_Register_S/Shift_Register_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.srcs/sim_1/imports/Shift_Register_S/Shift_Register_TB_behav.wcfg}
+source Shift_Register_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Shift_Register_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 902.484 ; gain = 17.133
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 19 12:50:41 2022...

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Shift_Register_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Shift_Register_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="328750000fs"></ZoomStartTime>
+      <ZoomEndTime time="694350001fs"></ZoomEndTime>
+      <Cursor1Time time="508750000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/Shift_Register_TB/input" type="logic">
+      <obj_property name="ElementShortName">input</obj_property>
+      <obj_property name="ObjectShortName">input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Shift_Register_TB/clk_1" type="logic">
+      <obj_property name="ElementShortName">clk_1</obj_property>
+      <obj_property name="ObjectShortName">clk_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Shift_Register_TB/sel" type="array">
+      <obj_property name="ElementShortName">sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Shift_Register_TB/clr_1" type="logic">
+      <obj_property name="ElementShortName">clr_1</obj_property>
+      <obj_property name="ObjectShortName">clr_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Shift_Register_TB/uut/sh_left" type="array">
+      <obj_property name="ElementShortName">sh_left[6:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_left[6:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Shift_Register_TB/uut/sh_right" type="array">
+      <obj_property name="ElementShortName">sh_right[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_right[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Shift_Register_TB/uut/store" type="array">
+      <obj_property name="ElementShortName">store[7:0]</obj_property>
+      <obj_property name="ObjectShortName">store[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Shift_Register_TB/output" type="logic">
+      <obj_property name="ElementShortName">output</obj_property>
+      <obj_property name="ObjectShortName">output</obj_property>
+   </wvobject>
+</wave_config>

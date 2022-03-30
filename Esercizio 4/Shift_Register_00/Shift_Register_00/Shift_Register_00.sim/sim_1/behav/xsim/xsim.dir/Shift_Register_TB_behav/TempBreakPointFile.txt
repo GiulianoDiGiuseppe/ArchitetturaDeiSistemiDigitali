@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+58 true C:/Users/sossi/Vivado Projects/Shift_Register_00/Shift_Register_00.srcs/sources_1/new/Shift_Register.vhd

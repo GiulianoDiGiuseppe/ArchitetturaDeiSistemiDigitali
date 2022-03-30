@@ -1,0 +1,179 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 12760
+License: Customer
+
+Current time: 	Mon Feb 14 12:08:02 CET 2022
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 343 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	digig
+User home directory: C:/Users/digig
+User working directory: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S
+User country: 	IT
+User language: 	it
+User locale: 	it_IT
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/digig/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/digig/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/digig/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/vivado.log
+Vivado journal file location: 	C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/vivado.jou
+Engine tmp dir: 	C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/.Xil/Vivado-12760-ACER-Giuliano
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 604 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 106 MB (+108590kb) [00:00:12]
+// [Engine Memory]: 582 MB (+459123kb) [00:00:12]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\digig\OneDrive - Università di Napoli Federico II\Desktop\ARC\ProgettoASD_2021-22-main\Esercizio 4\Shift_Register_S\Shift_Register_S\Shift_Register_S.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S' 
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 50 MB. Current time: 2/14/22, 12:08:04 PM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S/Shift_Register_S.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S' INFO: [Project 1-313] Project file moved from 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 4/Shift_Register_S' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 755 MB (+150949kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  5235 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:14 . Memory (MB): peak = 821.215 ; gain = 190.762 
+// Project name: Shift_Register_S; location: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 4/Shift_Register_S/Shift_Register_S; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // by (cl)
+// [Engine Memory]: 795 MB (+1971kb) [00:00:29]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 83 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Shift_Register(Structural) (Shift_Register.vhd)]", 1); // B (F, cl)
+// PAPropertyPanels.initPanels (D_and_Mux.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Shift_Register(Structural) (Shift_Register.vhd), stage7 : D_and_Mux(Structural) (D_and_Mux.vhd)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Shift_Register(Structural) (Shift_Register.vhd)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Shift_Register(Structural) (Shift_Register.vhd)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("Shift_Register.vhd", 338, 202); // cl (w, cl)
+selectCodeEditor("Shift_Register.vhd", 503, 236); // cl (w, cl)
+selectCodeEditor("Shift_Register.vhd", 551, 244); // cl (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("Shift_Register.vhd", 496, 73); // cl (w, cl)
+selectCodeEditor("Shift_Register.vhd", 526, 94); // cl (w, cl)
+selectCodeEditor("Shift_Register.vhd", 432, 114); // cl (w, cl)
+// Elapsed time: 18 seconds
+selectCodeEditor("Shift_Register.vhd", 573, 142); // cl (w, cl)
+selectCodeEditor("Shift_Register.vhd", 631, 152); // cl (w, cl)
+selectCodeEditor("Shift_Register.vhd", 606, 196); // cl (w, cl)
+// Elapsed time: 17 seconds
+selectCodeEditor("Shift_Register.vhd", 554, 244); // cl (w, cl)
+// Elapsed time: 34 seconds
+selectCodeEditor("Shift_Register.vhd", 174, 117); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("Shift_Register.vhd", 332, 259); // cl (w, cl)
+selectCodeEditor("Shift_Register.vhd", 350, 282); // cl (w, cl)
+selectCodeEditor("Shift_Register.vhd", 370, 222); // cl (w, cl)
+// Elapsed time: 20 seconds
+selectCodeEditor("Shift_Register.vhd", 573, 125); // cl (w, cl)
+selectCodeEditor("Shift_Register.vhd", 350, 202); // cl (w, cl)
+selectCodeEditor("Shift_Register.vhd", 575, 134); // cl (w, cl)
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Shift_Register_TB(Behavioral) (Shift_Register_TB.vhd)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Shift_Register_TB(Behavioral) (Shift_Register_TB.vhd)]", 5, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("Shift_Register_TB.vhd", 375, 246); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("Shift_Register_TB.vhd", 65, 78); // cl (w, cl)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Shift_Register_TB(Behavioral) (Shift_Register_TB.vhd)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Shift_Register(Structural) (Shift_Register.vhd)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Shift_Register(Structural) (Shift_Register.vhd), stage7 : D_and_Mux(Structural) (D_and_Mux.vhd)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("Shift_Register.vhd", 198, 536); // cl (w, cl)
+// Elapsed time: 23 seconds
+selectCodeEditor("Shift_Register.vhd", 482, 237); // cl (w, cl)
+// [GUI Memory]: 116 MB (+5438kb) [00:06:01]
+// HMemoryUtils.trashcanNow. Engine heap size: 809 MB. GUI used memory: 56 MB. Current time: 2/14/22, 12:15:04 PM CET
+// Elapsed time: 83 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// by (cl):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// A (cl): Elaborate Design: addNotify
+dismissDialog("Save Project"); // al (cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cl)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a100tcsg324-1 Top: Shift_Register 
+// [Engine Memory]: 1,039 MB (+214550kb) [00:07:29]
+// PAPropertyPanels.initPanels (Shift_Register.vhd) elapsed time: 0.2s
+// [Engine Memory]: 1,136 MB (+46179kb) [00:07:29]
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 815ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1046 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,157 MB. GUI used memory: 58 MB. Current time: 2/14/22, 12:15:20 PM CET
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 566 ms to process. Increasing delay to 2000 ms.
+// TclEventType: ELABORATE_START
