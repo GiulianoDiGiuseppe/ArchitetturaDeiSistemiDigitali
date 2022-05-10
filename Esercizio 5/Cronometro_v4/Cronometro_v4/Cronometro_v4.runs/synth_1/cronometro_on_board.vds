@@ -1,0 +1,539 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Jan 30 18:41:13 2022
+# Process ID: 17192
+# Current directory: C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.runs/synth_1
+# Command line: vivado.exe -log cronometro_on_board.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cronometro_on_board.tcl
+# Log file: C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.runs/synth_1/cronometro_on_board.vds
+# Journal file: C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source cronometro_on_board.tcl -notrace
+Command: synth_design -top cronometro_on_board -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14936 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 830.980 ; gain = 178.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'cronometro_on_board' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro_on_board.vhd:52]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 500000000 - type: integer 
+INFO: [Synth 8-3491] module 'ButtonDebouncer' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/ButtonDebouncer.vhd:34' bound to instance 'debouncer_sel' of component 'ButtonDebouncer' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro_on_board.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'ButtonDebouncer' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/ButtonDebouncer.vhd:46]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 500000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/ButtonDebouncer.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'ButtonDebouncer' (1#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/ButtonDebouncer.vhd:46]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 500000000 - type: integer 
+INFO: [Synth 8-3491] module 'ButtonDebouncer' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/ButtonDebouncer.vhd:34' bound to instance 'debouncer_stop' of component 'ButtonDebouncer' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro_on_board.vhd:158]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 500000000 - type: integer 
+INFO: [Synth 8-3491] module 'ButtonDebouncer' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/ButtonDebouncer.vhd:34' bound to instance 'debouncer_set_h' of component 'ButtonDebouncer' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro_on_board.vhd:169]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 500000000 - type: integer 
+INFO: [Synth 8-3491] module 'ButtonDebouncer' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/ButtonDebouncer.vhd:34' bound to instance 'debouncer_set_m' of component 'ButtonDebouncer' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro_on_board.vhd:181]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 500000000 - type: integer 
+INFO: [Synth 8-3491] module 'ButtonDebouncer' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/ButtonDebouncer.vhd:34' bound to instance 'debouncer_set_s' of component 'ButtonDebouncer' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro_on_board.vhd:193]
+	Parameter CLKIN_freq bound to: 100000000 - type: integer 
+	Parameter CLKOUT_freq bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'clock_filter' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd:32' bound to instance 'div_freq' of component 'clock_filter' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro_on_board.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'clock_filter' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd:44]
+	Parameter CLKIN_freq bound to: 100000000 - type: integer 
+	Parameter CLKOUT_freq bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_filter' (2#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd:44]
+INFO: [Synth 8-3491] module 'cronometro' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro.vhd:34' bound to instance 'crono' of component 'cronometro' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro_on_board.vhd:216]
+INFO: [Synth 8-638] synthesizing module 'cronometro' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro.vhd:50]
+INFO: [Synth 8-3491] module 'cont_sm' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_sm.vhd:35' bound to instance 'contatore_secondi' of component 'cont_sm' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'cont_sm' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_sm.vhd:49]
+WARNING: [Synth 8-614] signal 'SET' is read in the process but is not in the sensitivity list [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_sm.vhd:58]
+WARNING: [Synth 8-614] signal 'ore_en' is read in the process but is not in the sensitivity list [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_sm.vhd:58]
+WARNING: [Synth 8-614] signal 'INIT' is read in the process but is not in the sensitivity list [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_sm.vhd:58]
+WARNING: [Synth 8-614] signal 'temp' is read in the process but is not in the sensitivity list [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_sm.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'cont_sm' (3#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_sm.vhd:49]
+INFO: [Synth 8-3491] module 'cont_sm' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_sm.vhd:35' bound to instance 'contatore_minuti' of component 'cont_sm' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro.vhd:93]
+INFO: [Synth 8-3491] module 'cont_o' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_o.vhd:38' bound to instance 'contatore_ore' of component 'cont_o' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'cont_o' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_o.vhd:51]
+WARNING: [Synth 8-614] signal 'SET' is read in the process but is not in the sensitivity list [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_o.vhd:59]
+WARNING: [Synth 8-614] signal 'ore_en' is read in the process but is not in the sensitivity list [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_o.vhd:59]
+WARNING: [Synth 8-614] signal 'INIT' is read in the process but is not in the sensitivity list [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_o.vhd:59]
+WARNING: [Synth 8-614] signal 'temp' is read in the process but is not in the sensitivity list [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_o.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'cont_o' (4#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_o.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'cronometro' (5#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro.vhd:50]
+	Parameter n_register bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'intertempi' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/intertempi.vhd:34' bound to instance 'it' of component 'intertempi' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro_on_board.vhd:235]
+INFO: [Synth 8-638] synthesizing module 'intertempi' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/intertempi.vhd:48]
+	Parameter n_register bound to: 2 - type: integer 
+	Parameter n bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'mux' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/mux.vhd:36' bound to instance 'mux21' of component 'mux' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/intertempi.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/mux.vhd:47]
+	Parameter n bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux' (6#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/mux.vhd:47]
+INFO: [Synth 8-3491] module 'unita_controllo' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/unita_controllo.vhd:36' bound to instance 'uc' of component 'unita_controllo' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/intertempi.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'unita_controllo' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/unita_controllo.vhd:47]
+INFO: [Synth 8-226] default block is never used [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/unita_controllo.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'unita_controllo' (7#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/unita_controllo.vhd:47]
+INFO: [Synth 8-3491] module 'Memoria' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/Memoria.vhd:35' bound to instance 'reg_temp' of component 'Memoria' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/intertempi.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'Memoria' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/Memoria.vhd:45]
+WARNING: [Synth 8-614] signal 'en' is read in the process but is not in the sensitivity list [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/Memoria.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'Memoria' (8#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/Memoria.vhd:45]
+INFO: [Synth 8-3491] module 'Memoria' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/Memoria.vhd:35' bound to instance 'reg_temp' of component 'Memoria' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/intertempi.vhd:113]
+INFO: [Synth 8-256] done synthesizing module 'intertempi' (9#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/intertempi.vhd:48]
+	Parameter n bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'mux' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/mux.vhd:36' bound to instance 'mux21' of component 'mux' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro_on_board.vhd:248]
+INFO: [Synth 8-3491] module 'display_seven_segments' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:32' bound to instance 'seven_segment_array' of component 'display_seven_segments' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro_on_board.vhd:255]
+INFO: [Synth 8-638] synthesizing module 'display_seven_segments' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:46]
+	Parameter CLKIN_freq bound to: 100000000 - type: integer 
+	Parameter CLKOUT_freq bound to: 500 - type: integer 
+	Parameter CLKIN_freq bound to: 100000000 - type: integer 
+	Parameter CLKOUT_freq bound to: 500 - type: integer 
+INFO: [Synth 8-3491] module 'clock_filter' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd:32' bound to instance 'clk_filter' of component 'clock_filter' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'clock_filter__parameterized1' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd:44]
+	Parameter CLKIN_freq bound to: 100000000 - type: integer 
+	Parameter CLKOUT_freq bound to: 500 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_filter__parameterized1' (9#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd:44]
+INFO: [Synth 8-3491] module 'counter_mod8' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod4.vhd:34' bound to instance 'counter_instance' of component 'counter_mod8' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'counter_mod8' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod4.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'counter_mod8' (10#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod4.vhd:41]
+INFO: [Synth 8-3491] module 'cathodes_manager' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:32' bound to instance 'cathodes_instance' of component 'cathodes_manager' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'cathodes_manager' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:39]
+INFO: [Synth 8-226] default block is never used [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:84]
+WARNING: [Synth 8-614] signal 'value' is read in the process but is not in the sensitivity list [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:81]
+WARNING: [Synth 8-614] signal 'dots' is read in the process but is not in the sensitivity list [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:81]
+INFO: [Synth 8-226] default block is never used [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:118]
+INFO: [Synth 8-256] done synthesizing module 'cathodes_manager' (11#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:39]
+INFO: [Synth 8-3491] module 'anodes_manager' declared at 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd:32' bound to instance 'anodes_instance' of component 'anodes_manager' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'anodes_manager' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd:39]
+INFO: [Synth 8-226] default block is never used [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'anodes_manager' (12#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'display_seven_segments' (13#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'cronometro_on_board' (14#1) [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro_on_board.vhd:52]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 894.398 ; gain = 241.500
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 894.398 ; gain = 241.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 894.398 ; gain = 241.500
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/cronometro_on_board_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/cronometro_on_board_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1019.809 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1019.809 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1019.809 ; gain = 366.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1019.809 ; gain = 366.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1019.809 ; gain = 366.910
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'temp_reg' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_sm.vhd:64]
+WARNING: [Synth 8-327] inferring latch for variable 'temp_reg' [C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_o.vhd:64]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1019.809 ; gain = 366.910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 8     
+	   2 Input     31 Bit       Adders := 3     
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 6     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 10    
+	               27 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 17    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 20    
+	   8 Input     32 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 3     
+	   2 Input     18 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 9     
+	   3 Input      1 Bit        Muxes := 10    
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ButtonDebouncer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+Module clock_filter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module cont_sm 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+Module cont_o 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+Module mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 1     
+Module unita_controllo 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module Memoria 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module clock_filter__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+Module counter_mod8 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+Module anodes_manager 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[5]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[6]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[7]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[8]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[9]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[10]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[11]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[12]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[13]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[14]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[15]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[16]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[17]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[18]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[19]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[20]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[21]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[22]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[23]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[24]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[25]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[26]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[27]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[28]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[29]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'crono/contatore_ore/temp_reg[30]' (LD) to 'crono/contatore_ore/temp_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (crono/\contatore_ore/temp_reg[31] )
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[6]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[7]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[8]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[9]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[10]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[11]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[12]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[13]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[14]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[15]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[16]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[17]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[18]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[19]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[20]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[21]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[22]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[23]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[24]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[25]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[26]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[27]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[28]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[29]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'cont_sm:/temp_reg[30]' (LD) to 'cont_sm:/temp_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cont_sm:/\temp_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (temp_reg[31]) is unused and will be removed from module cont_sm.
+WARNING: [Synth 8-3332] Sequential element (contatore_ore/temp_reg[31]) is unused and will be removed from module cronometro.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1019.809 ; gain = 366.910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1019.809 ; gain = 366.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1019.809 ; gain = 366.910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1079.141 ; gain = 426.242
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:00:44 . Memory (MB): peak = 1083.477 ; gain = 430.578
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:00:44 . Memory (MB): peak = 1083.477 ; gain = 430.578
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1083.477 ; gain = 430.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1083.477 ; gain = 430.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1083.477 ; gain = 430.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1083.477 ; gain = 430.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     4|
+|2     |CARRY4 |   451|
+|3     |LUT1   |    85|
+|4     |LUT2   |   277|
+|5     |LUT3   |   446|
+|6     |LUT4   |   207|
+|7     |LUT5   |   438|
+|8     |LUT6   |  1304|
+|9     |MUXF7  |     2|
+|10    |MUXF8  |     1|
+|11    |FDCE   |   152|
+|12    |FDPE   |    17|
+|13    |FDRE   |   220|
+|14    |LD     |    17|
+|15    |LDC    |    17|
+|16    |IBUF   |    15|
+|17    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------------+-----------------------------+------+
+|      |Instance                    |Module                       |Cells |
++------+----------------------------+-----------------------------+------+
+|1     |top                         |                             |  3669|
+|2     |  crono                     |cronometro                   |  2911|
+|3     |    contatore_minuti        |cont_sm                      |   915|
+|4     |    contatore_ore           |cont_o                       |  1081|
+|5     |    contatore_secondi       |cont_sm_5                    |   915|
+|6     |  debouncer_sel             |ButtonDebouncer              |    57|
+|7     |  debouncer_set_h           |ButtonDebouncer_0            |    57|
+|8     |  debouncer_set_m           |ButtonDebouncer_1            |    69|
+|9     |  debouncer_set_s           |ButtonDebouncer_2            |    69|
+|10    |  debouncer_stop            |ButtonDebouncer_3            |    55|
+|11    |  div_freq                  |clock_filter                 |    70|
+|12    |  it                        |intertempi                   |   168|
+|13    |    \mem_temps[0].reg_temp  |Memoria                      |   121|
+|14    |    \mem_temps[1].reg_temp  |Memoria_4                    |    24|
+|15    |    uc                      |unita_controllo              |    23|
+|16    |  seven_segment_array       |display_seven_segments       |    64|
+|17    |    clk_filter              |clock_filter__parameterized1 |    47|
+|18    |    counter_instance        |counter_mod8                 |    17|
++------+----------------------------+-----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1083.477 ; gain = 430.578
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 1083.477 ; gain = 305.168
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1083.477 ; gain = 430.578
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 488 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1099.523 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 34 instances were transformed.
+  LD => LDCE: 17 instances
+  LDC => LDCE: 17 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+121 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 1099.523 ; gain = 722.109
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1099.523 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 5/Cronometro_v4/Cronometro_v4.runs/synth_1/cronometro_on_board.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file cronometro_on_board_utilization_synth.rpt -pb cronometro_on_board_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 30 18:42:11 2022...

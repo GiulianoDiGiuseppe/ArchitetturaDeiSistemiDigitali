@@ -1,0 +1,143 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Jan 30 18:43:22 2022
+| Host         : DESKTOP-OADHOB6 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file cronometro_on_board_control_sets_placed.rpt
+| Design       : cronometro_on_board
+| Device       : xc7a100t
+------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    65 |
+|    Minimum number of control sets                        |    65 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   385 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    65 |
+| >= 0 to < 4        |    51 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    10 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              22 |           11 |
+| No           | No                    | Yes                    |              20 |           18 |
+| No           | Yes                   | No                     |              77 |           37 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             149 |           53 |
+| Yes          | Yes                   | No                     |             155 |           40 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------------+--------------------------------------+-------------------------------------------------+------------------+----------------+
+|                   Clock Signal                   |             Enable Signal            |                 Set/Reset Signal                | Slice Load Count | Bel Load Count |
++--------------------------------------------------+--------------------------------------+-------------------------------------------------+------------------+----------------+
+|  debouncer_set_s/CLEARED_BTN_reg_6               |                                      | debouncer_set_s/CLEARED_BTN_reg_12              |                1 |              1 |
+|  debouncer_set_m/CLEARED_BTN_reg_2               |                                      | debouncer_set_m/CLEARED_BTN_reg_8               |                1 |              1 |
+|  debouncer_set_m/CLEARED_BTN_reg_6               |                                      | debouncer_set_m/CLEARED_BTN_reg_12              |                1 |              1 |
+|  debouncer_set_m/CLEARED_BTN_reg_4               |                                      | debouncer_set_m/CLEARED_BTN_reg_10              |                1 |              1 |
+|  debouncer_set_m/CLEARED_BTN_reg_5               |                                      | debouncer_set_m/CLEARED_BTN_reg_11              |                1 |              1 |
+|  debouncer_set_m/CLEARED_BTN_reg_3               |                                      | debouncer_set_m/CLEARED_BTN_reg_9               |                1 |              1 |
+|  debouncer_set_m/CLEARED_BTN_reg_7               |                                      | debouncer_set_m/CLEARED_BTN_reg_13              |                1 |              1 |
+|  en1                                             | crono/contatore_ore/p_2_in           | debouncer_set_m/CLEARED_BTN_reg_5               |                1 |              1 |
+|  clock_crono_BUFG                                |                                      | debouncer_set_s/CLEARED_BTN_reg_8               |                1 |              1 |
+|  debouncer_set_s/CLEARED_BTN_reg_1               |                                      | debouncer_set_s/CLEARED_BTN_reg_7               |                1 |              1 |
+|  debouncer_set_s/CLEARED_BTN_reg_2               |                                      | debouncer_set_s/CLEARED_BTN_reg_8               |                1 |              1 |
+|  debouncer_set_s/CLEARED_BTN_reg_4               |                                      | debouncer_set_s/CLEARED_BTN_reg_10              |                1 |              1 |
+|  debouncer_set_s/CLEARED_BTN_reg_3               |                                      | debouncer_set_s/CLEARED_BTN_reg_9               |                1 |              1 |
+|  debouncer_set_s/CLEARED_BTN_reg_5               |                                      | debouncer_set_s/CLEARED_BTN_reg_11              |                1 |              1 |
+|  en1                                             | crono/contatore_ore/p_2_in           | debouncer_set_m/CLEARED_BTN_reg_3               |                1 |              1 |
+|  clock_crono_BUFG                                |                                      | debouncer_set_s/CLEARED_BTN_reg_7               |                1 |              1 |
+|  en1                                             | crono/contatore_ore/p_2_in           | debouncer_set_m/CLEARED_BTN_reg_7               |                1 |              1 |
+|  clock_crono_BUFG                                |                                      | debouncer_set_s/CLEARED_BTN_reg_11              |                1 |              1 |
+|  clock_crono_BUFG                                |                                      | debouncer_set_s/CLEARED_BTN_reg_10              |                1 |              1 |
+|  clock_crono_BUFG                                |                                      | debouncer_set_s/CLEARED_BTN_reg_9               |                1 |              1 |
+|  clock_crono_BUFG                                |                                      | debouncer_set_s/CLEARED_BTN_reg_12              |                1 |              1 |
+|  crono/contatore_ore/count_reg[0]_LDC_i_1__1_n_0 |                                      | crono/contatore_ore/count_reg[0]_LDC_i_2__1_n_0 |                1 |              1 |
+|  clock_crono_BUFG                                | crono/contatore_ore/p_2_in           | debouncer_set_s/CLEARED_BTN_reg_6               |                1 |              1 |
+|  clock_crono_BUFG                                | crono/contatore_ore/p_2_in           | debouncer_set_s/CLEARED_BTN_reg_1               |                1 |              1 |
+|  clock_crono_BUFG                                | crono/contatore_ore/p_2_in           | debouncer_set_s/CLEARED_BTN_reg_2               |                1 |              1 |
+|  clock_crono_BUFG                                | crono/contatore_ore/p_2_in           | debouncer_set_s/CLEARED_BTN_reg_4               |                1 |              1 |
+|  clock_crono_BUFG                                | crono/contatore_ore/p_2_in           | debouncer_set_s/CLEARED_BTN_reg_3               |                1 |              1 |
+|  clock_crono_BUFG                                | crono/contatore_ore/p_2_in           | debouncer_set_s/CLEARED_BTN_reg_5               |                1 |              1 |
+|  crono/contatore_ore/count_reg[1]_LDC_i_1__1_n_0 |                                      | crono/contatore_ore/count_reg[1]_LDC_i_2__1_n_0 |                1 |              1 |
+|  crono/contatore_ore/count_reg[2]_LDC_i_1__1_n_0 |                                      | crono/contatore_ore/count_reg[2]_LDC_i_2__1_n_0 |                1 |              1 |
+|  crono/contatore_ore/count_reg[4]_LDC_i_1__1_n_0 |                                      | crono/contatore_ore/count_reg[4]_LDC_i_2__1_n_0 |                1 |              1 |
+|  crono/contatore_ore/count_reg[3]_LDC_i_1__1_n_0 |                                      | crono/contatore_ore/count_reg[3]_LDC_i_2__1_n_0 |                1 |              1 |
+|  en2                                             |                                      | crono/contatore_ore/count_reg[4]_LDC_i_2__1_n_0 |                1 |              1 |
+|  en2                                             |                                      | crono/contatore_ore/count_reg[0]_LDC_i_2__1_n_0 |                1 |              1 |
+|  en2                                             |                                      | crono/contatore_ore/count_reg[1]_LDC_i_2__1_n_0 |                1 |              1 |
+|  en2                                             |                                      | crono/contatore_ore/count_reg[3]_LDC_i_2__1_n_0 |                1 |              1 |
+|  en2                                             |                                      | crono/contatore_ore/count_reg[2]_LDC_i_2__1_n_0 |                1 |              1 |
+|  en2                                             | crono/contatore_ore/p_2_in           | crono/contatore_ore/count_reg[0]_LDC_i_1__1_n_0 |                1 |              1 |
+|  en2                                             | crono/contatore_ore/p_2_in           | crono/contatore_ore/count_reg[1]_LDC_i_1__1_n_0 |                1 |              1 |
+|  en2                                             | crono/contatore_ore/p_2_in           | crono/contatore_ore/count_reg[2]_LDC_i_1__1_n_0 |                1 |              1 |
+|  en2                                             | crono/contatore_ore/p_2_in           | crono/contatore_ore/count_reg[4]_LDC_i_1__1_n_0 |                1 |              1 |
+|  en2                                             | crono/contatore_ore/p_2_in           | crono/contatore_ore/count_reg[3]_LDC_i_1__1_n_0 |                1 |              1 |
+|  en1                                             |                                      | debouncer_set_m/CLEARED_BTN_reg_10              |                1 |              1 |
+|  en1                                             |                                      | debouncer_set_m/CLEARED_BTN_reg_12              |                1 |              1 |
+|  en1                                             |                                      | debouncer_set_m/CLEARED_BTN_reg_9               |                1 |              1 |
+|  en1                                             |                                      | debouncer_set_m/CLEARED_BTN_reg_11              |                1 |              1 |
+|  en1                                             |                                      | debouncer_set_m/CLEARED_BTN_reg_13              |                1 |              1 |
+|  en1                                             |                                      | debouncer_set_m/CLEARED_BTN_reg_8               |                1 |              1 |
+|  en1                                             | crono/contatore_ore/p_2_in           | debouncer_set_m/CLEARED_BTN_reg_2               |                1 |              1 |
+|  en1                                             | crono/contatore_ore/p_2_in           | debouncer_set_m/CLEARED_BTN_reg_6               |                1 |              1 |
+|  en1                                             | crono/contatore_ore/p_2_in           | debouncer_set_m/CLEARED_BTN_reg_4               |                1 |              1 |
+|  debouncer_set_h/CLEARED_BTN_reg_0[0]            |                                      |                                                 |                2 |              5 |
+|  clock_in_IBUF_BUFG                              |                                      |                                                 |                5 |              5 |
+|  debouncer_set_m/CLEARED_BTN_reg_0[0]            |                                      |                                                 |                2 |              6 |
+|  debouncer_set_s/E[0]                            |                                      |                                                 |                2 |              6 |
+|  clock_crono_BUFG                                | crono/contatore_ore/p_2_in           | debouncer_set_s/CLEARED_BTN_reg_0               |                7 |             27 |
+|  en1                                             | crono/contatore_ore/p_2_in           | debouncer_set_m/CLEARED_BTN_reg_1               |                6 |             27 |
+|  en2                                             | crono/contatore_ore/p_2_in           | debouncer_set_h/CLEARED_BTN_reg_1               |                9 |             30 |
+|  clock_in_IBUF_BUFG                              | debouncer_sel/count[31]_i_2__0_n_0   | debouncer_sel/count[31]_i_1__2_n_0              |                8 |             31 |
+|  clock_in_IBUF_BUFG                              | debouncer_set_h/count[31]_i_2__2_n_0 | debouncer_set_h/count[31]_i_1__4_n_0            |                8 |             31 |
+|  clock_in_IBUF_BUFG                              | debouncer_set_s/count[31]_i_2__4_n_0 | debouncer_set_s/count[31]_i_1__6_n_0            |                8 |             31 |
+|  clock_in_IBUF_BUFG                              | debouncer_set_m/count[31]_i_2__3_n_0 | debouncer_set_m/count[31]_i_1__5_n_0            |                8 |             31 |
+|  clock_in_IBUF_BUFG                              | debouncer_stop/count[31]_i_2__1_n_0  | debouncer_stop/count[31]_i_1__3_n_0             |                8 |             31 |
+| ~clock_in_IBUF_BUFG                              | it/uc/E[0]                           | it/mem_temps[0].reg_temp/AR[0]                  |               14 |             48 |
+|  clock_in_IBUF_BUFG                              |                                      | it/mem_temps[0].reg_temp/AR[0]                  |               21 |             63 |
++--------------------------------------------------+--------------------------------------+-------------------------------------------------+------------------+----------------+
+
+

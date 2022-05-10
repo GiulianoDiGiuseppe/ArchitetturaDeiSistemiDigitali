@@ -1,0 +1,9 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto c5940ffbbe4742d6887be50915638e62 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot cronometroTB_behav xil_defaultlib.cronometroTB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <SET_O> does not exist in entity <cronometro>.  Please compare the definition of block <cronometro> to its component declaration and its instantion to detect the mismatch. [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 5/Cronometro_v4/Cronometro_v4/Cronometro_v4.srcs/sim_1/new/cronometroTB.vhd:43]
+ERROR: [VRFC 10-664] expression has 8 elements ; expected 6 [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 5/Cronometro_v4/Cronometro_v4/Cronometro_v4.srcs/sim_1/new/cronometroTB.vhd:44]
+ERROR: [VRFC 10-664] expression has 8 elements ; expected 5 [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 5/Cronometro_v4/Cronometro_v4/Cronometro_v4.srcs/sim_1/new/cronometroTB.vhd:45]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit cronometrotb in library work failed.

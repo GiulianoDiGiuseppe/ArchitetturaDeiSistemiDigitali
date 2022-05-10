@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 5/Cronometro_v4/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_o.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cont_o'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 5/Cronometro_v4/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cont_sm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cont_sm'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 5/Cronometro_v4/Cronometro_v4/Cronometro_v4.srcs/sources_1/new/cronometro.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cronometro'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 5/Cronometro_v4/Cronometro_v4/Cronometro_v4.srcs/sim_1/new/cronometroTB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cronometroTB'
