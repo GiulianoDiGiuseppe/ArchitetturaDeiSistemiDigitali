@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Sat Feb 19 12:28:59 2022
+# Process ID: 27528
+# Current directory: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13284 C:\Users\digig\OneDrive - Università di Napoli Federico II\Desktop\ARC\ProgettoASD_2021-22-main\Esercizio 7\Handshaking\Handshaking\Handshaking.xpr
+# Log file: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/vivado.log
+# Journal file: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xa7a100tcsg324-2I
+Top: handshaking_A_B
+INFO: [Device 21-403] Loading part xa7a100tcsg324-2I
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1271.996 ; gain = 173.508
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'handshaking_A_B' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/handshaking_A_B.vhd:47]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'entity_A' declared at 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_A.vhd:34' bound to instance 'A_ENTITY' of component 'entity_A' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/handshaking_A_B.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'entity_A' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_A.vhd:50]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'ROM_A' declared at 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/mem_ROM_A.vhd:26' bound to instance 'ROM' of component 'ROM_A' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_A.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'ROM_A' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/mem_ROM_A.vhd:42]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ROM_A' (1#1) [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/mem_ROM_A.vhd:42]
+INFO: [Synth 8-3491] module 'UC_A' declared at 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/UC_A.vhd:34' bound to instance 'UC' of component 'UC_A' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_A.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'UC_A' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/UC_A.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'UC_A' (2#1) [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/UC_A.vhd:49]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'cont_A_B' declared at 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/cont_A_B.vhd:35' bound to instance 'CONT' of component 'cont_A_B' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_A.vhd:126]
+INFO: [Synth 8-638] synthesizing module 'cont_A_B' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/cont_A_B.vhd:49]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'cont_A_B' (3#1) [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/cont_A_B.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'entity_A' (4#1) [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_A.vhd:50]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'entity_B' declared at 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_B.vhd:34' bound to instance 'B_ENTITY' of component 'entity_B' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/handshaking_A_B.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'entity_B' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_B.vhd:50]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'MemoriaB' declared at 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/MemoriaB.vhd:27' bound to instance 'Mem' of component 'MemoriaB' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_B.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'MemoriaB' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/MemoriaB.vhd:41]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'MemoriaB' (5#1) [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/MemoriaB.vhd:41]
+INFO: [Synth 8-3491] module 'UC_B' declared at 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/UC_B.vhd:34' bound to instance 'UC' of component 'UC_B' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_B.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'UC_B' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/UC_B.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'UC_B' (6#1) [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/UC_B.vhd:50]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'cont_A_B' declared at 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/cont_A_B.vhd:35' bound to instance 'CONT' of component 'cont_A_B' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_B.vhd:157]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'UO_B' declared at 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/UO_B.vhd:36' bound to instance 'UO' of component 'UO_B' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_B.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'UO_B' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/UO_B.vhd:53]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'UO_B' (7#1) [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/UO_B.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'entity_B' (8#1) [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/entity_B.vhd:50]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'interface_HS' declared at 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/interface_HS.vhd:34' bound to instance 'INTERFACE' of component 'interface_HS' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/handshaking_A_B.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'interface_HS' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/interface_HS.vhd:53]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'FSM_A' declared at 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/FSM_A.vhd:34' bound to instance 'FSMA' of component 'FSM_A' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/interface_HS.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'FSM_A' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/FSM_A.vhd:51]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FSM_A' (9#1) [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/FSM_A.vhd:51]
+INFO: [Synth 8-3491] module 'FSM_B' declared at 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/FSM_B.vhd:34' bound to instance 'FSMB' of component 'FSM_B' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/interface_HS.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'FSM_B' [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/FSM_B.vhd:51]
+	Parameter N bound to: 8 - type: integer 
+	Parameter M bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FSM_B' (10#1) [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/FSM_B.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'interface_HS' (11#1) [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/interface_HS.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'handshaking_A_B' (12#1) [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sources_1/new/handshaking_A_B.vhd:47]
+WARNING: [Synth 8-3331] design UC_B has unconnected port bit_overflow

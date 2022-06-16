@@ -1,0 +1,12 @@
+
+{ 
+    crc :  5729582021281007454  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 2b356cd430cb4c9faeed023638fd4012 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_handshaking_A_B_behav xil_defaultlib.tb_handshaking_A_B" , 
+    buildDate : "Sep  4 2019" , 
+    buildTime : "09:57:52" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2019.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/tb_handshaking_A_B_behav/xsimk.exe\"   \"xsim.dir/tb_handshaking_A_B_behav/obj/xsim_0.win64.obj\" \"xsim.dir/tb_handshaking_A_B_behav/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2019.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

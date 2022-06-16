@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Handshaking.srcs/sources_1/new/FSM_A.vhd" \
+"../../../../Handshaking.srcs/sources_1/new/FSM_B.vhd" \
+"../../../../Handshaking.srcs/sources_1/new/MemoriaB.vhd" \
+"../../../../Handshaking.srcs/sources_1/new/UC_A.vhd" \
+"../../../../Handshaking.srcs/sources_1/new/UC_B.vhd" \
+"../../../../Handshaking.srcs/sources_1/new/UO_B.vhd" \
+"../../../../Handshaking.srcs/sources_1/new/cont_A_B.vhd" \
+"../../../../Handshaking.srcs/sources_1/new/entity_A.vhd" \
+"../../../../Handshaking.srcs/sources_1/new/entity_B.vhd" \
+"../../../../Handshaking.srcs/sources_1/new/handshaking_A_B.vhd" \
+"../../../../Handshaking.srcs/sources_1/new/interface_HS.vhd" \
+"../../../../Handshaking.srcs/sources_1/new/mem_ROM_A.vhd" \
+"../../../../Handshaking.srcs/sim_1/new/tb_handshaking_A_B.vhd" \
+
+# Do not sort compile order
+nosort

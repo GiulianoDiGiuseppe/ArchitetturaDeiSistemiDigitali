@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jan 31 12:20:12 2022
+# Process ID: 3636
+# Current directory: C:/Users/giuse/Documents/Progetti tesina/Esercizio 7/Handshaking_v4_forsefinale_con_easteregg/Handshaking_v3/Handshaking_v3.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/giuse/Documents/Progetti tesina/Esercizio 7/Handshaking_v4_forsefinale_con_easteregg/Handshaking_v3/Handshaking_v3.sim/sim_1/behav/xsim/xsim.dir/tb_handshaking_A_B_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/giuse/Documents/Progetti tesina/Esercizio 7/Handshaking_v4_forsefinale_con_easteregg/Handshaking_v3/Handshaking_v3.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/giuse/Documents/Progetti tesina/Esercizio 7/Handshaking_v4_forsefinale_con_easteregg/Handshaking_v3/Handshaking_v3.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/giuse/Documents/Progetti -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/giuse/Documents/Progetti" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Mon Jan 31 12:20:12 2022...

@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Sun Feb 20 17:52:13 2022
+# Process ID: 28964
+# Current directory: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24396 C:\Users\digig\OneDrive - Università di Napoli Federico II\Desktop\ARC\ProgettoASD_2021-22-main\Esercizio 7\Handshaking\Handshaking\Handshaking.xpr
+# Log file: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/vivado.log
+# Journal file: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.srcs/sim_1/imports/Handshaking_v3/tb_handshaking_A_B_behav.wcfg}
+source tb_handshaking_A_B.tcl
+close_sim

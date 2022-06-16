@@ -1,0 +1,135 @@
+/*
+
+Xilinx Vivado v2019.1.3 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2644227 on Wed Sep  4 09:45:24 MDT 2019
+IP Build: 2633630 on Wed Sep  4 12:30:14 MDT 2019
+
+Process ID (PID): 27528
+License: Customer
+
+Current time: 	Sat Feb 19 12:29:08 CET 2022
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 2560x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 120 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	digig
+User home directory: C:/Users/digig
+User working directory: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking
+User country: 	IT
+User language: 	it
+User locale: 	it_IT
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/digig/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/digig/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/digig/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/vivado.log
+Vivado journal file location: 	C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/vivado.jou
+Engine tmp dir: 	C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/.Xil/Vivado-27528-DESKTOP-DI8QI9A
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 702 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 108 MB (+110811kb) [00:00:03]
+// [Engine Memory]: 581 MB (+457746kb) [00:00:03]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\digig\OneDrive - Università di Napoli Federico II\Desktop\ARC\ProgettoASD_2021-22-main\Esercizio 7\Handshaking\Handshaking\Handshaking.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 782 MB (+180022kb) [00:00:07]
+// WARNING: HEventQueue.dispatchEvent() is taking  1463 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 829 MB. GUI used memory: 50 MB. Current time: 2/19/22, 12:29:10 PM CET
+// Project name: Handshaking; location: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking; part: xa7a100tcsg324-2I
+// [Engine Memory]: 829 MB (+8925kb) [00:00:08]
+dismissDialog("Open Project"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshaking_A_B(Structural) (handshaking_A_B.vhd)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshaking_A_B(Structural) (handshaking_A_B.vhd), A_ENTITY : entity_A(Structural) (entity_A.vhd)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshaking_A_B(Structural) (handshaking_A_B.vhd), A_ENTITY : entity_A(Structural) (entity_A.vhd)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshaking_A_B(Structural) (handshaking_A_B.vhd), A_ENTITY : entity_A(Structural) (entity_A.vhd), CONT : cont_A_B(rtl) (cont_A_B.vhd)]", 5, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshaking_A_B(Structural) (handshaking_A_B.vhd), A_ENTITY : entity_A(Structural) (entity_A.vhd), CONT : cont_A_B(rtl) (cont_A_B.vhd)]", 5, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshaking_A_B(Structural) (handshaking_A_B.vhd), A_ENTITY : entity_A(Structural) (entity_A.vhd), ROM : ROM_A(behavioral) (mem_ROM_A.vhd)]", 3, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshaking_A_B(Structural) (handshaking_A_B.vhd), A_ENTITY : entity_A(Structural) (entity_A.vhd), ROM : ROM_A(behavioral) (mem_ROM_A.vhd)]", 3, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectCodeEditor("mem_ROM_A.vhd", 306, 368); // cl (w, cl)
+selectCodeEditor("mem_ROM_A.vhd", 288, 330); // cl (w, cl)
+selectCodeEditor("mem_ROM_A.vhd", 340, 328); // cl (w, cl)
+selectCodeEditor("mem_ROM_A.vhd", 304, 372); // cl (w, cl)
+selectCodeEditor("mem_ROM_A.vhd", 283, 366); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshaking_A_B(Structural) (handshaking_A_B.vhd), A_ENTITY : entity_A(Structural) (entity_A.vhd), UC : UC_A(Behavioral) (UC_A.vhd)]", 4, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshaking_A_B(Structural) (handshaking_A_B.vhd), A_ENTITY : entity_A(Structural) (entity_A.vhd), UC : UC_A(Behavioral) (UC_A.vhd)]", 4, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshaking_A_B(Structural) (handshaking_A_B.vhd), A_ENTITY : entity_A(Structural) (entity_A.vhd), ROM : ROM_A(behavioral) (mem_ROM_A.vhd)]", 3, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, handshaking_A_B(Structural) (handshaking_A_B.vhd), A_ENTITY : entity_A(Structural) (entity_A.vhd), ROM : ROM_A(behavioral) (mem_ROM_A.vhd)]", 3, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cl): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cl)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xa7a100tcsg324-2I Top: handshaking_A_B 
+// HMemoryUtils.trashcanNow. Engine heap size: 969 MB. GUI used memory: 54 MB. Current time: 2/19/22, 12:29:55 PM CET
+// TclEventType: ELABORATE_START

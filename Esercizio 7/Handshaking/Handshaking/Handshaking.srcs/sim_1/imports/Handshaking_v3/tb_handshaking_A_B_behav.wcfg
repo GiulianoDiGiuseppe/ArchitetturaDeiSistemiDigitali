@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_handshaking_A_B_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_handshaking_A_B" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="62770000fs"></ZoomStartTime>
+      <ZoomEndTime time="1062770001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="197"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb_handshaking_A_B/clk_A" type="logic">
+      <obj_property name="ElementShortName">clk_A</obj_property>
+      <obj_property name="ObjectShortName">clk_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_handshaking_A_B/clk_B" type="logic">
+      <obj_property name="ElementShortName">clk_B</obj_property>
+      <obj_property name="ObjectShortName">clk_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_handshaking_A_B/rst_A" type="logic">
+      <obj_property name="ElementShortName">rst_A</obj_property>
+      <obj_property name="ObjectShortName">rst_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_handshaking_A_B/rst_B" type="logic">
+      <obj_property name="ElementShortName">rst_B</obj_property>
+      <obj_property name="ObjectShortName">rst_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="group167" type="group">
+      <obj_property name="label">EntityA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/A_ENTITY/address_in" type="array">
+         <obj_property name="ElementShortName">address_in[2:0]</obj_property>
+         <obj_property name="ObjectShortName">address_in[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/A_ENTITY/in_data" type="array">
+         <obj_property name="ElementShortName">in_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/A_ENTITY/UC/in_ready_UC_A" type="logic">
+         <obj_property name="ElementShortName">in_ready_UC_A</obj_property>
+         <obj_property name="ObjectShortName">in_ready_UC_A</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/A_ENTITY/UC/in_received_UC_A" type="logic">
+         <obj_property name="ElementShortName">in_received_UC_A</obj_property>
+         <obj_property name="ObjectShortName">in_received_UC_A</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/A_ENTITY/cont_in" type="logic">
+         <obj_property name="ElementShortName">cont_in</obj_property>
+         <obj_property name="ObjectShortName">cont_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/A_ENTITY/UC/current_state" type="other">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group168" type="group">
+      <obj_property name="label">EntityB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/B_ENTITY/out_data" type="array">
+         <obj_property name="ElementShortName">out_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/B_ENTITY/somma" type="array">
+         <obj_property name="ElementShortName">somma[7:0]</obj_property>
+         <obj_property name="ObjectShortName">somma[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/B_ENTITY/out_ready" type="logic">
+         <obj_property name="ElementShortName">out_ready</obj_property>
+         <obj_property name="ObjectShortName">out_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/outreceived" type="logic">
+         <obj_property name="ElementShortName">outreceived</obj_property>
+         <obj_property name="ObjectShortName">outreceived</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/B_ENTITY/cont_in" type="logic">
+         <obj_property name="ElementShortName">cont_in</obj_property>
+         <obj_property name="ObjectShortName">cont_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/B_ENTITY/UC/end_somma_in" type="logic">
+         <obj_property name="ElementShortName">end_somma_in</obj_property>
+         <obj_property name="ObjectShortName">end_somma_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/B_ENTITY/UC/current_state" type="other">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group169" type="group">
+      <obj_property name="label">Interfaccia HS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/INTERFACE/buffer_full_signal" type="logic">
+         <obj_property name="ElementShortName">buffer_full_signal</obj_property>
+         <obj_property name="ObjectShortName">buffer_full_signal</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/INTERFACE/buffer_picked_signal" type="logic">
+         <obj_property name="ElementShortName">buffer_picked_signal</obj_property>
+         <obj_property name="ObjectShortName">buffer_picked_signal</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/INTERFACE/FSMA/word_buffer" type="array">
+         <obj_property name="ElementShortName">word_buffer[7:0]</obj_property>
+         <obj_property name="ObjectShortName">word_buffer[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/INTERFACE/FSMB/out_data_fsm_B" type="array">
+         <obj_property name="ElementShortName">out_data_fsm_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out_data_fsm_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/INTERFACE/in_received" type="logic">
+         <obj_property name="ElementShortName">in_received</obj_property>
+         <obj_property name="ObjectShortName">in_received</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/INTERFACE/in_ready" type="logic">
+         <obj_property name="ElementShortName">in_ready</obj_property>
+         <obj_property name="ObjectShortName">in_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/INTERFACE/out_received" type="logic">
+         <obj_property name="ElementShortName">out_received</obj_property>
+         <obj_property name="ObjectShortName">out_received</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/INTERFACE/out_ready" type="logic">
+         <obj_property name="ElementShortName">out_ready</obj_property>
+         <obj_property name="ObjectShortName">out_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="group174" type="group">
+         <obj_property name="label">FSMA</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_handshaking_A_B/dut/INTERFACE/FSMA/current_state" type="other">
+            <obj_property name="ElementShortName">current_state</obj_property>
+            <obj_property name="ObjectShortName">current_state</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group173" type="group">
+         <obj_property name="label">FSMB</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_handshaking_A_B/dut/INTERFACE/FSMB/current_state" type="other">
+            <obj_property name="ElementShortName">current_state</obj_property>
+            <obj_property name="ObjectShortName">current_state</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group150" type="group">
+      <obj_property name="label">Memoria</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/B_ENTITY/Mem/ADDR" type="array">
+         <obj_property name="ElementShortName">ADDR[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/B_ENTITY/Mem/MEM_WE" type="logic">
+         <obj_property name="ElementShortName">MEM_WE</obj_property>
+         <obj_property name="ObjectShortName">MEM_WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/B_ENTITY/Mem/MEM_SOMMA_IN" type="array">
+         <obj_property name="ElementShortName">MEM_SOMMA_IN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_SOMMA_IN[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/B_ENTITY/Mem/MEM" type="array">
+         <obj_property name="ElementShortName">MEM[0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM[0:15][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_handshaking_A_B/dut/B_ENTITY/Mem/MEM_DATA_OUT" type="array">
+         <obj_property name="ElementShortName">MEM_DATA_OUT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DATA_OUT[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

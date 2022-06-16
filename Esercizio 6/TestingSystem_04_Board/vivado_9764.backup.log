@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Wed Dec 15 11:19:24 2021
+# Process ID: 9764
+# Current directory: C:/Users/digig/Desktop/TestingSystem_04_Board
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18092 C:\Users\digig\Desktop\TestingSystem_04_Board\TestingSystem_03.xpr
+# Log file: C:/Users/digig/Desktop/TestingSystem_04_Board/vivado.log
+# Journal file: C:/Users/digig/Desktop/TestingSystem_04_Board\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/digig/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc
+add_files -fileset constrs_1 -norecurse {{C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/OneDrive_4_20-9-2021/digilent-xdc-master/Nexys-A7-100T-Master.xdc}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Wed Dec 15 11:21:38 2021] Launched synth_1...
+Run output will be captured here: C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.runs/synth_1/runme.log
+[Wed Dec 15 11:21:38 2021] Launched impl_1...
+Run output will be captured here: C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/OneDrive_4_20-9-2021/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/OneDrive_4_20-9-2021/digilent-xdc-master/Nexys-A7-100T-Master.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/OneDrive_4_20-9-2021/digilent-xdc-master/Nexys-A7-100T-Master.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/OneDrive_4_20-9-2021/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1255.293 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1396.301 ; gain = 352.066
+write_checkpoint synth.dcp
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1790.012 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1806.730 ; gain = 16.719
+INFO: [Common 17-1381] The checkpoint 'C:/Users/digig/Desktop/TestingSystem_04_Board/synth.dcp' has been generated.
+C:/Users/digig/Desktop/TestingSystem_04_Board/synth.dcp
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Wed Dec 15 11:28:05 2021] Launched impl_1...
+Run output will be captured here: C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 15 11:28:53 2021...

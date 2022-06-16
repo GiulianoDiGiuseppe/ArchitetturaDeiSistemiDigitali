@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Feb  8 11:28:54 2022
+# Process ID: 12812
+# Current directory: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7380 C:\Users\digig\OneDrive - Università di Napoli Federico II\Desktop\ARC\ProgettoASD_2021-22-main\Esercizio 7\Handshaking\Handshaking\Handshaking.xpr
+# Log file: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/vivado.log
+# Journal file: C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking/Handshaking.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 7/Handshaking/Handshaking'
+INFO: [Project 1-313] Project file moved from 'C:/Users/giuse/Documents/Progetti tesina/Esercizio 7/Handshaking' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:13 . Memory (MB): peak = 864.258 ; gain = 226.004
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb  8 18:46:15 2022...

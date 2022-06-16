@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1643880165">
+  <File Type="PA-TCL" Name="TestingSystem.tcl"/>
+  <File Type="REPORTS-TCL" Name="TestingSystem_reports.tcl"/>
+  <File Type="RDS-RDS" Name="TestingSystem.vds"/>
+  <File Type="RDS-UTIL" Name="TestingSystem_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="TestingSystem_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="TestingSystem.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ButtonDebouncer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TestingSystem_03.srcs/sources_1/new/ButtonDebouncer.vhd"/>
+        <Attr Name="ImportTime" Val="1643454964"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Combinatorial.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TestingSystem_03.srcs/sources_1/new/Combinatorial.vhd"/>
+        <Attr Name="ImportTime" Val="1643880747"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ROM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TestingSystem_03.srcs/sources_1/new/ROM.vhd"/>
+        <Attr Name="ImportTime" Val="1643880750"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ROM_3.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TestingSystem_03.srcs/sources_1/new/ROM_3.vhd"/>
+        <Attr Name="ImportTime" Val="1643880741"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counter_mod8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TestingSystem_03.srcs/sources_1/new/counter_mod8.vhd"/>
+        <Attr Name="ImportTime" Val="1643880734"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TestingSystem.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TestingSystem_03.srcs/sources_1/new/TestingSystem.vhd"/>
+        <Attr Name="ImportTime" Val="1643880539"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TestingSystem"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../File Giuseppe/Università/Laurea Magistrale/Corsi/ARCHITETTURA DEI SISTEMI DIGITALI/Slide/PROCESSO DI SVILUPPO SU FPGA/digilent-xdc-master/Nexys-A7-100T-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1628606177"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

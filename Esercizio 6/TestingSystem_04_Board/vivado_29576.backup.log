@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Wed Dec 15 11:08:38 2021
+# Process ID: 29576
+# Current directory: C:/Users/digig/Desktop/TestingSystem_04_Board
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32020 C:\Users\digig\Desktop\TestingSystem_04_Board\TestingSystem_03.xpr
+# Log file: C:/Users/digig/Desktop/TestingSystem_04_Board/vivado.log
+# Journal file: C:/Users/digig/Desktop/TestingSystem_04_Board\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/PROGETTI/TestingSystem_04_Board' since last save.
+WARNING: [Project 1-312] File not found as 'C:/Users/digig/OneDrive_4_20-9-2021/digilent-xdc-master/Nexys-A7-100T-Master.xdc'; using path 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/OneDrive_4_20-9-2021/digilent-xdc-master/Nexys-A7-100T-Master.xdc' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'C:/Users/digig/OneDrive_4_20-9-2021/digilent-xdc-master/Nexys-A7-100T-Master.xdc'; using path 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/OneDrive_4_20-9-2021/digilent-xdc-master/Nexys-A7-100T-Master.xdc' instead.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Users/digig/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store', nor could it be found using path 'C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/OneDrive_4_20-9-2021/digilent-xdc-master/Nexys-A7-100T-Master.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/OneDrive_4_20-9-2021/digilent-xdc-master/Nexys-A7-100T-Master.xdc}}
+file mkdir C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.srcs/constrs_1/new
+close [ open C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc w ]
+add_files -fileset constrs_1 C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.srcs/constrs_1/new/Nexys-A7-100T-Master.xdc
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Wed Dec 15 11:11:23 2021] Launched synth_1...
+Run output will be captured here: C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Wed Dec 15 11:12:06 2021] Launched impl_1...
+Run output will be captured here: C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Wed Dec 15 11:13:17 2021] Launched impl_1...
+Run output will be captured here: C:/Users/digig/Desktop/TestingSystem_04_Board/TestingSystem_03.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 15 11:18:58 2021...

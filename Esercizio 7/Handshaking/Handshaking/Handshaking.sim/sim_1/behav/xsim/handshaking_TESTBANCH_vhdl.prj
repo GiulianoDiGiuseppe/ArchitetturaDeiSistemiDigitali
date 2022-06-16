@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Handshaking.srcs/sim_1/new/handshaking_TESTBANCH.vhd" \
+
+# Do not sort compile order
+nosort

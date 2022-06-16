@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Feb  3 10:23:52 2022
+# Process ID: 12400
+# Current directory: C:/Users/giuse/Documents/Progetti tesina/Esercizio 6/TestingSystem_04_Board/TestingSystem_03.runs/impl_1
+# Command line: vivado.exe -log TestingSystem.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TestingSystem.tcl -notrace
+# Log file: C:/Users/giuse/Documents/Progetti tesina/Esercizio 6/TestingSystem_04_Board/TestingSystem_03.runs/impl_1/TestingSystem.vdi
+# Journal file: C:/Users/giuse/Documents/Progetti tesina/Esercizio 6/TestingSystem_04_Board/TestingSystem_03.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source TestingSystem.tcl -notrace
