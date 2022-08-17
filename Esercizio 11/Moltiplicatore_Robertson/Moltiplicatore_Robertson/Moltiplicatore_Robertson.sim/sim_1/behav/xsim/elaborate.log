@@ -1,0 +1,26 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 36006cc15c0c44469c23769ad718a02b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_Robertson_behav xil_defaultlib.tb_Robertson -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture structural of entity xil_defaultlib.unita_controllo [unita_controllo_default]
+Compiling architecture behavioural of entity xil_defaultlib.registro8 [registro8_default]
+Compiling architecture rtl of entity xil_defaultlib.mux_21 [mux_21_default]
+Compiling architecture behavioural of entity xil_defaultlib.shif_register [shif_register_default]
+Compiling architecture behavioural of entity xil_defaultlib.FFD [ffd_default]
+Compiling architecture rtl of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry [ripple_carry_default]
+Compiling architecture structural of entity xil_defaultlib.adder_sub [adder_sub_default]
+Compiling architecture behavioural of entity xil_defaultlib.cont_mod8 [cont_mod8_default]
+Compiling architecture structural of entity xil_defaultlib.unita_operativa [unita_operativa_default]
+Compiling architecture structural of entity xil_defaultlib.Robertson [robertson_default]
+Compiling architecture tb of entity xil_defaultlib.tb_robertson
+Built simulation snapshot tb_Robertson_behav

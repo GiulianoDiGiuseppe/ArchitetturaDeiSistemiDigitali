@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Moltiplicatore_Robertson.srcs/sources_1/imports/RobertsonMultiplier/FFD.vhd" \
+"../../../../Moltiplicatore_Robertson.srcs/sources_1/imports/RobertsonMultiplier/Robertson.vhd" \
+"../../../../Moltiplicatore_Robertson.srcs/sources_1/imports/RobertsonMultiplier/adder_sub.vhd" \
+"../../../../Moltiplicatore_Robertson.srcs/sources_1/imports/RobertsonMultiplier/cont_mod8.vhd" \
+"../../../../Moltiplicatore_Robertson.srcs/sources_1/imports/RobertsonMultiplier/full_adder.vhd" \
+"../../../../Moltiplicatore_Robertson.srcs/sources_1/imports/RobertsonMultiplier/mux_21.vhd" \
+"../../../../Moltiplicatore_Robertson.srcs/sources_1/imports/RobertsonMultiplier/registro8.vhd" \
+"../../../../Moltiplicatore_Robertson.srcs/sources_1/imports/RobertsonMultiplier/ripple_carry.vhd" \
+"../../../../Moltiplicatore_Robertson.srcs/sources_1/imports/RobertsonMultiplier/shift_register.vhd" \
+"../../../../Moltiplicatore_Robertson.srcs/sources_1/imports/RobertsonMultiplier/unita_controllo.vhd" \
+"../../../../Moltiplicatore_Robertson.srcs/sources_1/imports/RobertsonMultiplier/unita_operativa.vhd" \
+"../../../../Moltiplicatore_Robertson.srcs/sim_1/new/tb_Robertson.vhd" \
+
+# Do not sort compile order
+nosort
