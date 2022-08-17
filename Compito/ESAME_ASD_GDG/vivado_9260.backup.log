@@ -1,0 +1,274 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Feb 22 16:20:50 2022
+# Process ID: 9260
+# Current directory: C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10880 C:\Users\digig\Downloads\ESAME_ASD_GDG\ESAME_ASD_GDG\ESAME_ASD_GDG.xpr
+# Log file: C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/vivado.log
+# Journal file: C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/digig/Desktop/ESAME_ASD_GDG' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ASDi_GiulianoDiGiuseppe/TB1_behav.wcfg', nor could it be found using path 'C:/Users/digig/Desktop/ASDi_GiulianoDiGiuseppe/TB1_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:14 . Memory (MB): peak = 855.613 ; gain = 231.719
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB1_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_A.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter_a'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_A_byte.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter_a_byte'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter_B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_N.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter_N'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Interface_A.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'interface_A'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Interface_B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Interface_B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Rom_A.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ROM_A'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Rom_B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ROM_b'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Shift_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Shift_Register'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Shift_register_b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Shift_Register_b'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SistemaA'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SistemaB'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Top_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_module'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sim_1/new/TB1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TB1'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.sim/sim_1/behav/xsim'
+"xelab -wto 88f9e91cb4454125b4cbfb01dcba7717 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB1_behav xil_defaultlib.TB1 -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 88f9e91cb4454125b4cbfb01dcba7717 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB1_behav xil_defaultlib.TB1 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.interface_A [interface_a_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_A [rom_a_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter_a [counter_a_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter_a_byte [counter_a_byte_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Register [shift_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.SistemaA [sistemaa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Interface_B [interface_b_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter_B [counter_b_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_b [rom_b_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter_N [counter_n_default]
+Compiling architecture behavioral of entity xil_defaultlib.Shift_Register_b [shift_register_b_default]
+Compiling architecture behavioral of entity xil_defaultlib.SistemaB [sistemab_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top_module [top_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb1
+Built simulation snapshot TB1_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.sim/sim_1/behav/xsim/xsim.dir/TB1_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.sim/sim_1/behav/xsim/xsim.dir/TB1_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Feb 22 16:21:51 2022. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Feb 22 16:21:51 2022...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 871.922 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/digig/Downloads/ESAME_ASD_GDG/ASDi_GiulianoDiGiuseppe/TB1_behav.wcfg
+WARNING: [USF-XSim-17] WCFG file does not exist:C:/Users/digig/Downloads/ESAME_ASD_GDG/ASDi_GiulianoDiGiuseppe/TB1_behav.wcfg
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB1_behav -key {Behavioral:sim_1:Functional:TB1} -tclbatch {TB1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source TB1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 871.922 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 871.922 ; gain = 0.000
+close [ open C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/MEM_A.vhd w ]
+add_files C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/MEM_A.vhd
+close [ open C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/MEM_B.vhd w ]
+add_files C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/MEM_B.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Rom_A.vhd] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Rom_B.vhd] -no_script -reset -force -quiet
+remove_files  {C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Rom_A.vhd C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Rom_B.vhd}
+file delete -force C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Rom_A.vhd C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Rom_B.vhd
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: Top_module
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1309.738 ; gain = 172.742
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-989] mem_b is already declared in this region [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaB.vhd:96]
+INFO: [Synth 8-2810] unit behavioral ignored due to previous errors [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaB.vhd:44]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1371.348 ; gain = 234.352
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+2 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: Top_module
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1371.348 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top_module' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Top_module.vhd:39]
+INFO: [Synth 8-3491] module 'SistemaA' declared at 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaA.vhd:34' bound to instance 'a' of component 'SistemaA' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Top_module.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'SistemaA' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaA.vhd:45]
+INFO: [Synth 8-3491] module 'interface_A' declared at 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Interface_A.vhd:36' bound to instance 'interface' of component 'interface_A' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaA.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'interface_A' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Interface_A.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'interface_A' (1#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Interface_A.vhd:49]
+INFO: [Synth 8-3491] module 'MEM_A' declared at 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/MEM_A.vhd:37' bound to instance 'rom' of component 'MEM_A' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaA.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'MEM_A' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/MEM_A.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'MEM_A' (2#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/MEM_A.vhd:45]
+INFO: [Synth 8-3491] module 'counter_a' declared at 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_A.vhd:35' bound to instance 'contatore_N' of component 'counter_a' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaA.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'counter_a' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_A.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'counter_a' (3#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_A.vhd:44]
+INFO: [Synth 8-3491] module 'counter_a_byte' declared at 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_A_byte.vhd:35' bound to instance 'counter_8' of component 'counter_a_byte' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaA.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'counter_a_byte' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_A_byte.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'counter_a_byte' (4#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_A_byte.vhd:44]
+INFO: [Synth 8-3491] module 'Shift_Register' declared at 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Shift_register.vhd:34' bound to instance 'shift_a' of component 'Shift_Register' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaA.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'Shift_Register' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Shift_register.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'Shift_Register' (5#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Shift_register.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'SistemaA' (6#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaA.vhd:45]
+INFO: [Synth 8-3491] module 'SistemaB' declared at 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaB.vhd:34' bound to instance 'b' of component 'SistemaB' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Top_module.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'SistemaB' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaB.vhd:44]
+INFO: [Synth 8-3491] module 'Interface_B' declared at 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Interface_B.vhd:34' bound to instance 'intB' of component 'Interface_B' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaB.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'Interface_B' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Interface_B.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'Interface_B' (7#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Interface_B.vhd:45]
+INFO: [Synth 8-3491] module 'counter_B' declared at 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_B.vhd:35' bound to instance 'conter_b' of component 'counter_B' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaB.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'counter_B' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_B.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element tmp_stop_reg was removed.  [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_B.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'counter_B' (8#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_B.vhd:43]
+INFO: [Synth 8-3491] module 'MEM_B' declared at 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/MEM_B.vhd:37' bound to instance 'MEMO_B' of component 'MEM_B' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaB.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'MEM_B' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/MEM_B.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'MEM_B' (9#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/MEM_B.vhd:44]
+INFO: [Synth 8-3491] module 'counter_N' declared at 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_N.vhd:35' bound to instance 'conter_n' of component 'counter_N' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaB.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'counter_N' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_N.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'counter_N' (10#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Counter_N.vhd:43]
+INFO: [Synth 8-3491] module 'Shift_Register_b' declared at 'C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Shift_register_b.vhd:34' bound to instance 'shift' of component 'Shift_Register_b' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaB.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'Shift_Register_b' [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Shift_register_b.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'Shift_Register_b' (11#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Shift_register_b.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'SistemaB' (12#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/SistemaB.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'Top_module' (13#1) [C:/Users/digig/Downloads/ESAME_ASD_GDG/ESAME_ASD_GDG/ESAME_ASD_GDG.srcs/sources_1/new/Top_module.vhd:39]
+WARNING: [Synth 8-3331] design Shift_Register_b has unconnected port counter[0]
+WARNING: [Synth 8-3331] design Shift_Register_b has unconnected port counter[1]
+WARNING: [Synth 8-3331] design Shift_Register_b has unconnected port counter[2]
+WARNING: [Synth 8-3331] design Shift_Register_b has unconnected port counter[3]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_sh[0]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_sh[1]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_sh[2]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_sh[3]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_sh[4]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_sh[5]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_sh[6]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_sh[7]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_p[0]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_p[1]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_p[2]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_p[3]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_p[4]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_p[5]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_p[6]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port data_p[7]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port counter[0]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port counter[1]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port counter[2]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port counter[3]
+WARNING: [Synth 8-3331] design MEM_B has unconnected port clk
+WARNING: [Synth 8-3331] design MEM_B has unconnected port en
+WARNING: [Synth 8-3331] design MEM_B has unconnected port sel
+WARNING: [Synth 8-3331] design interface_A has unconnected port stop[0]
+WARNING: [Synth 8-3331] design interface_A has unconnected port stop[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1371.348 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1371.348 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1371.348 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1495.801 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:16 . Memory (MB): peak = 1513.102 ; gain = 141.754
+41 Infos, 30 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:16 . Memory (MB): peak = 1513.102 ; gain = 141.754
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1513.102 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 22 17:02:13 2022...
