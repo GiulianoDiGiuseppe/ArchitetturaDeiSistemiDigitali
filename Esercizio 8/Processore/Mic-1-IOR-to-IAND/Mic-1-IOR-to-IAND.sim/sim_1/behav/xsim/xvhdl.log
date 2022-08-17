@@ -1,0 +1,15 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 8/Processore/Mic-1-IOR-to-IAND/Mic-1-IOR-to-IAND.srcs/sources_1/imports/vhdl/common_defs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 8/Processore/Mic-1-IOR-to-IAND/Mic-1-IOR-to-IAND.srcs/sources_1/imports/vhdl/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 8/Processore/Mic-1-IOR-to-IAND/Mic-1-IOR-to-IAND.srcs/sources_1/imports/vhdl/control_store.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_store'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 8/Processore/Mic-1-IOR-to-IAND/Mic-1-IOR-to-IAND.srcs/sources_1/imports/vhdl/control_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 8/Processore/Mic-1-IOR-to-IAND/Mic-1-IOR-to-IAND.srcs/sources_1/imports/vhdl/datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'datapath'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 8/Processore/Mic-1-IOR-to-IAND/Mic-1-IOR-to-IAND.srcs/sources_1/imports/vhdl/dp_ar_ram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dp_ar_ram'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 8/Processore/Mic-1-IOR-to-IAND/Mic-1-IOR-to-IAND.srcs/sources_1/imports/vhdl/processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'processor'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 8/Processore/Mic-1-IOR-to-IAND/Mic-1-IOR-to-IAND.srcs/sim_1/imports/vhdl/processor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'processor_tb'

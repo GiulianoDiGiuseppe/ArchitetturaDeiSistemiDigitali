@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Jan 29 17:52:51 2022
+# Process ID: 6828
+# Current directory: C:/Users/giuse/Documents/Progetti tesina/Esercizio 12/Divisore_NonRestoring_onboard/Divisore_NonRestoring_onboard.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/giuse/Documents/Progetti tesina/Esercizio 12/Divisore_NonRestoring_onboard/Divisore_NonRestoring_onboard.sim/sim_1/behav/xsim/xsim.dir/Divider_On_Board_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/giuse/Documents/Progetti tesina/Esercizio 12/Divisore_NonRestoring_onboard/Divisore_NonRestoring_onboard.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/giuse/Documents/Progetti tesina/Esercizio 12/Divisore_NonRestoring_onboard/Divisore_NonRestoring_onboard.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/giuse/Documents/Progetti -notrace
+couldn't read file "C:/Users/giuse/Documents/Progetti": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Sat Jan 29 17:52:51 2022...

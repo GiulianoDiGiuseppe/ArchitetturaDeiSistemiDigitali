@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="processor_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="common_defs" />
+            <top_module name="processor_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="188220000fs"></ZoomStartTime>
+      <ZoomEndTime time="343320001fs"></ZoomEndTime>
+      <Cursor1Time time="210000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/processor_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/processor_tb/mem_data_we">
+      <obj_property name="ElementShortName">mem_data_we</obj_property>
+      <obj_property name="ObjectShortName">mem_data_we</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/processor_tb/mem_data_in">
+      <obj_property name="ElementShortName">mem_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/processor_tb/mem_data_out">
+      <obj_property name="ElementShortName">mem_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/processor_tb/mem_data_addr">
+      <obj_property name="ElementShortName">mem_data_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/processor_tb/mem_instr_in">
+      <obj_property name="ElementShortName">mem_instr_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_instr_in[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/processor_tb/mem_instr_addr">
+      <obj_property name="ElementShortName">mem_instr_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_instr_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/processor_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group126">
+      <obj_property name="label">datapath</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/processor_tb/dut/datapath/mem_instr_in">
+         <obj_property name="ElementShortName">mem_instr_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_instr_in[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group223">
+         <obj_property name="label">registri</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/processor_tb/dut/datapath/pc_reg">
+            <obj_property name="ElementShortName">pc_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">pc_reg[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/processor_tb/dut/datapath/mar_reg">
+            <obj_property name="ElementShortName">mar_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mar_reg[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/processor_tb/dut/datapath/mdr_reg">
+            <obj_property name="ElementShortName">mdr_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mdr_reg[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/processor_tb/dut/datapath/mbr_reg">
+            <obj_property name="ElementShortName">mbr_reg[7:0]</obj_property>
+            <obj_property name="ObjectShortName">mbr_reg[7:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/processor_tb/dut/datapath/sp_reg">
+            <obj_property name="ElementShortName">sp_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">sp_reg[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/processor_tb/dut/datapath/tos_reg">
+            <obj_property name="ElementShortName">tos_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">tos_reg[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="logic" fp_name="/processor_tb/dut/datapath/wr_ff">
+         <obj_property name="ElementShortName">wr_ff</obj_property>
+         <obj_property name="ObjectShortName">wr_ff</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/processor_tb/dut/datapath/fetch_ff">
+         <obj_property name="ElementShortName">fetch_ff</obj_property>
+         <obj_property name="ObjectShortName">fetch_ff</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/processor_tb/dut/datapath/mem_data_out">
+         <obj_property name="ElementShortName">mem_data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_data_out[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group224">
+         <obj_property name="label">bus</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/processor_tb/dut/datapath/b_bus">
+            <obj_property name="ElementShortName">b_bus[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b_bus[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/processor_tb/dut/datapath/c_bus">
+            <obj_property name="ElementShortName">c_bus[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c_bus[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group225">
+         <obj_property name="label">alu</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/processor_tb/dut/datapath/h_reg">
+            <obj_property name="ElementShortName">h_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">h_reg[31:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/processor_tb/dut/datapath/alu_control">
+            <obj_property name="ElementShortName">alu_control[7:0]</obj_property>
+            <obj_property name="ObjectShortName">alu_control[7:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/processor_tb/dut/datapath/alu_n_flag">
+            <obj_property name="ElementShortName">alu_n_flag</obj_property>
+            <obj_property name="ObjectShortName">alu_n_flag</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/processor_tb/dut/datapath/alu_z_flag">
+            <obj_property name="ElementShortName">alu_z_flag</obj_property>
+            <obj_property name="ObjectShortName">alu_z_flag</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group193">
+      <obj_property name="label">control_unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/processor_tb/dut/control_unit/mir_reg">
+         <obj_property name="ElementShortName">mir_reg[35:0]</obj_property>
+         <obj_property name="ObjectShortName">mir_reg[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/processor_tb/dut/control_unit/ctrl_nxt_addr_no_msb">
+         <obj_property name="ElementShortName">ctrl_nxt_addr_no_msb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl_nxt_addr_no_msb[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/processor_tb/dut/control_unit/jmpc_addr">
+         <obj_property name="ElementShortName">jmpc_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">jmpc_addr[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/processor_tb/dut/control_unit/mem_control">
+         <obj_property name="ElementShortName">mem_control[2:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_control[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/processor_tb/dut/control_unit/mpc_virtual_reg">
+         <obj_property name="ElementShortName">mpc_virtual_reg[8:0]</obj_property>
+         <obj_property name="ObjectShortName">mpc_virtual_reg[8:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/processor_tb/dut/control_unit/control_store_word">
+         <obj_property name="ElementShortName">control_store_word[35:0]</obj_property>
+         <obj_property name="ObjectShortName">control_store_word[35:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/processor_tb/dut/control_unit/reg_to_b_decoder_out">
+         <obj_property name="ElementShortName">reg_to_b_decoder_out[8:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_to_b_decoder_out[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/processor_tb/dut/control_unit/c_to_reg_control">
+         <obj_property name="ElementShortName">c_to_reg_control[8:0]</obj_property>
+         <obj_property name="ObjectShortName">c_to_reg_control[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/processor_tb/dut/control_unit/alu_control">
+         <obj_property name="ElementShortName">alu_control[7:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_control[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/processor_tb/dut/control_unit/mem_control">
+         <obj_property name="ElementShortName">mem_control[2:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_control[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

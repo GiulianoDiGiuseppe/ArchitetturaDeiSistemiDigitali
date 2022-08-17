@@ -1,0 +1,24 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/Adder_Subtractor_Nbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ADDER_SUBTRACTOR_Nbit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/Counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/new/D_Latch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'D_Latch'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/new/Divisore_NonRestoring.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Divisore_NonRestoring'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/Full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FULL_ADDER'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/RCA_Nbit .vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RCA_Nbit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/RegisterM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RegisterM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/RegisterSAQ.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RegisterSAQ'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/new/Start_Divisione.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'StartDivisione'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/new/Unita_Controllo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Unita_Controllo'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/new/Unita_Operativa.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Unita_Operativa'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sim_1/new/tb_Divisore_NonRestoring.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_Divisore_NonRestoring'

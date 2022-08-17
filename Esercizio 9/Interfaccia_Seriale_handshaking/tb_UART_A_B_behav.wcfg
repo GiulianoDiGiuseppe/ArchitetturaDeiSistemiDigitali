@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_UART_A_B_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_UART_A_B" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="776169716089fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject type="logic" fp_name="/tb_UART_A_B/CLK">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_UART_A_B/RST">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_UART_A_B/ENABLE">
+      <obj_property name="ElementShortName">ENABLE</obj_property>
+      <obj_property name="ObjectShortName">ENABLE</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group18">
+      <obj_property name="label">ent_A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_UART_A_B/dut/A_ENTITY/data_out">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_UART_A_B/dut/A_ENTITY/address_in">
+         <obj_property name="ElementShortName">address_in[2:0]</obj_property>
+         <obj_property name="ObjectShortName">address_in[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_UART_A_B/dut/A_ENTITY/cont_in">
+         <obj_property name="ElementShortName">cont_in</obj_property>
+         <obj_property name="ObjectShortName">cont_in</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/tb_UART_A_B/dut/A_ENTITY/UC/current_state">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group30">
+      <obj_property name="label">ent_B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_UART_A_B/dut/B_ENTITY/data_in">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_UART_A_B/dut/B_ENTITY/address_in">
+         <obj_property name="ElementShortName">address_in[2:0]</obj_property>
+         <obj_property name="ObjectShortName">address_in[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_UART_A_B/dut/B_ENTITY/MEM/MEM">
+         <obj_property name="ElementShortName">MEM[0:7][7:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM[0:7][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_UART_A_B/dut/B_ENTITY/cont_in">
+         <obj_property name="ElementShortName">cont_in</obj_property>
+         <obj_property name="ObjectShortName">cont_in</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_UART_A_B/dut/B_ENTITY/we">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_UART_A_B/dut/B_ENTITY/UC/current_state">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group40">
+      <obj_property name="label">uart</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_UART_A_B/dut/UART/SERIAL_CONNECTION">
+         <obj_property name="ElementShortName">SERIAL_CONNECTION</obj_property>
+         <obj_property name="ObjectShortName">SERIAL_CONNECTION</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_UART_A_B/dut/UART/RDA_TEMP">
+         <obj_property name="ElementShortName">RDA_TEMP</obj_property>
+         <obj_property name="ObjectShortName">RDA_TEMP</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_UART_A_B/dut/UART/TX/TBE">
+         <obj_property name="ElementShortName">TBE</obj_property>
+         <obj_property name="ObjectShortName">TBE</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_UART_A_B/dut/UART/DBIN_TEMP">
+         <obj_property name="ElementShortName">DBIN_TEMP[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DBIN_TEMP[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_UART_A_B/dut/UART/DBOUT_TEMP">
+         <obj_property name="ElementShortName">DBOUT_TEMP[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DBOUT_TEMP[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_UART_A_B/dut/UART/WR_TEMP">
+         <obj_property name="ElementShortName">WR_TEMP</obj_property>
+         <obj_property name="ObjectShortName">WR_TEMP</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_UART_A_B/dut/UART/RD_TEMP">
+         <obj_property name="ElementShortName">RD_TEMP</obj_property>
+         <obj_property name="ObjectShortName">RD_TEMP</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_UART_A_B/dut/UART/Inst_Control_Unit/RDA">
+         <obj_property name="ElementShortName">RDA</obj_property>
+         <obj_property name="ObjectShortName">RDA</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_UART_A_B/dut/B_ENTITY/UC/RDA">
+         <obj_property name="ElementShortName">RDA</obj_property>
+         <obj_property name="ObjectShortName">RDA</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_UART_A_B/dut/UART/Inst_Control_Unit/LOAD">
+         <obj_property name="ElementShortName">LOAD</obj_property>
+         <obj_property name="ObjectShortName">LOAD</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

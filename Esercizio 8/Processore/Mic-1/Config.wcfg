@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="system_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="common_defs" />
+            <top_module name="system_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="371651667fs"></ZoomStartTime>
+      <ZoomEndTime time="512051668fs"></ZoomEndTime>
+      <Cursor1Time time="319852000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="250"></NameColumnWidth>
+      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject type="logic" fp_name="/system_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system_tb/pulse">
+      <obj_property name="ElementShortName">pulse</obj_property>
+      <obj_property name="ObjectShortName">pulse</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group15">
+      <obj_property name="label">processor</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="group69">
+         <obj_property name="label">IO</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/mem_data_in">
+            <obj_property name="ElementShortName">mem_data_in[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_data_in[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/mem_data_out">
+            <obj_property name="ElementShortName">mem_data_out[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_data_out[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/mem_data_addr">
+            <obj_property name="ElementShortName">mem_data_addr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_data_addr[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/mem_instr_in">
+            <obj_property name="ElementShortName">mem_instr_in[7:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_instr_in[7:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/mem_instr_addr">
+            <obj_property name="ElementShortName">mem_instr_addr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_instr_addr[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group78">
+         <obj_property name="label">datapath</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/datapath/mar_reg">
+            <obj_property name="ElementShortName">mar_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mar_reg[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/datapath/mdr_reg">
+            <obj_property name="ElementShortName">mdr_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">mdr_reg[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/datapath/pc_reg">
+            <obj_property name="ElementShortName">pc_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">pc_reg[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/datapath/mbr_reg">
+            <obj_property name="ElementShortName">mbr_reg[7:0]</obj_property>
+            <obj_property name="ObjectShortName">mbr_reg[7:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/datapath/sp_reg">
+            <obj_property name="ElementShortName">sp_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">sp_reg[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/datapath/tos_reg">
+            <obj_property name="ElementShortName">tos_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">tos_reg[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/datapath/h_reg">
+            <obj_property name="ElementShortName">h_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">h_reg[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/datapath/cpp_reg">
+            <obj_property name="ElementShortName">cpp_reg[31:0]</obj_property>
+            <obj_property name="ObjectShortName">cpp_reg[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system_tb/uut/processor/datapath/rd_ff">
+            <obj_property name="ElementShortName">rd_ff</obj_property>
+            <obj_property name="ObjectShortName">rd_ff</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system_tb/uut/processor/datapath/fetch_ff">
+            <obj_property name="ElementShortName">fetch_ff</obj_property>
+            <obj_property name="ObjectShortName">fetch_ff</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system_tb/uut/processor/datapath/wr_ff">
+            <obj_property name="ElementShortName">wr_ff</obj_property>
+            <obj_property name="ObjectShortName">wr_ff</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group84">
+         <obj_property name="label">control_unit</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/control_unit/mpc_virtual_reg">
+            <obj_property name="ElementShortName">mpc_virtual_reg[8:0]</obj_property>
+            <obj_property name="ObjectShortName">mpc_virtual_reg[8:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/control_unit/reg_to_b_control">
+            <obj_property name="ElementShortName">reg_to_b_control[8:0]</obj_property>
+            <obj_property name="ObjectShortName">reg_to_b_control[8:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/control_unit/c_to_reg_control">
+            <obj_property name="ElementShortName">c_to_reg_control[8:0]</obj_property>
+            <obj_property name="ObjectShortName">c_to_reg_control[8:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/control_unit/alu_control">
+            <obj_property name="ElementShortName">alu_control[7:0]</obj_property>
+            <obj_property name="ObjectShortName">alu_control[7:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system_tb/uut/processor/control_unit/mem_control">
+            <obj_property name="ElementShortName">mem_control[2:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_control[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group22">
+      <obj_property name="label">pwm</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/system_tb/uut/pwm/regwrite">
+         <obj_property name="ElementShortName">regwrite</obj_property>
+         <obj_property name="ObjectShortName">regwrite</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system_tb/uut/pwm/address">
+         <obj_property name="ElementShortName">address[3:0]</obj_property>
+         <obj_property name="ObjectShortName">address[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system_tb/uut/pwm/data_in">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system_tb/uut/pwm/data_out">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system_tb/uut/pwm/pulse">
+         <obj_property name="ElementShortName">pulse</obj_property>
+         <obj_property name="ObjectShortName">pulse</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group35">
+      <obj_property name="label">mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/system_tb/uut/device_mux/proc_data_we">
+         <obj_property name="ElementShortName">proc_data_we</obj_property>
+         <obj_property name="ObjectShortName">proc_data_we</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system_tb/uut/device_mux/proc_data_addr">
+         <obj_property name="ElementShortName">proc_data_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">proc_data_addr[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system_tb/uut/device_mux/proc_data_out">
+         <obj_property name="ElementShortName">proc_data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">proc_data_out[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system_tb/uut/device_mux/proc_data_in">
+         <obj_property name="ElementShortName">proc_data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">proc_data_in[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system_tb/uut/device_mux/mem_data_we">
+         <obj_property name="ElementShortName">mem_data_we</obj_property>
+         <obj_property name="ObjectShortName">mem_data_we</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system_tb/uut/device_mux/mem_data_addr">
+         <obj_property name="ElementShortName">mem_data_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_data_addr[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system_tb/uut/device_mux/mem_data_in">
+         <obj_property name="ElementShortName">mem_data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_data_in[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system_tb/uut/device_mux/mem_data_out">
+         <obj_property name="ElementShortName">mem_data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_data_out[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system_tb/uut/device_mux/pwm_data_we">
+         <obj_property name="ElementShortName">pwm_data_we</obj_property>
+         <obj_property name="ObjectShortName">pwm_data_we</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system_tb/uut/device_mux/pwm_data_addr">
+         <obj_property name="ElementShortName">pwm_data_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pwm_data_addr[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system_tb/uut/device_mux/pwm_data_in">
+         <obj_property name="ElementShortName">pwm_data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pwm_data_in[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system_tb/uut/device_mux/pwm_data_out">
+         <obj_property name="ElementShortName">pwm_data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pwm_data_out[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

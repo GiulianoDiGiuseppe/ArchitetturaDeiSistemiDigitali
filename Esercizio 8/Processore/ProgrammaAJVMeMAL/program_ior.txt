@@ -1,0 +1,5 @@
+  .main
+  BIPUSH 0xA
+  BIPUSH 0xE
+  IOR
+  .endmethod

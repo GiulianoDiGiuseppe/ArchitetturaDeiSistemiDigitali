@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jan 20 11:15:27 2022
+# Process ID: 28521
+# Current directory: /home/giuseppericcio/Switch_Multistadio/Switch_Multistadio.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/giuseppericcio/Switch_Multistadio/Switch_Multistadio.sim/sim_1/behav/xsim/xsim.dir/Switch_MultistadioTB_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/giuseppericcio/Switch_Multistadio/Switch_Multistadio.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/giuseppericcio/Switch_Multistadio/Switch_Multistadio.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/giuseppericcio/Switch_Multistadio/Switch_Multistadio.sim/sim_1/behav/xsim/xsim.dir/Switch_MultistadioTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/giuseppericcio/Switch_Multistadio/Switch_Multistadio.sim/sim_1/behav/xsim/xsim.dir/Switch_MultistadioTB_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jan 20 11:15:31 2022. For additional details about this file, please refer to the WebTalk help file at /tools/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jan 20 11:15:31 2022...

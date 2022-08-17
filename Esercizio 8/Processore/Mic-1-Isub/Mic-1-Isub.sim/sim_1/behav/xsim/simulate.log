@@ -1,0 +1,5 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Failure: Bad calculated value
+Time: 385 ns  Iteration: 3  Process: /processor_tb/wavegen_proc  File: /home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sim_1/imports/vhdl/processor_tb.vhd
+$finish called at time : 385 ns : File "/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sim_1/imports/vhdl/processor_tb.vhd" Line 98

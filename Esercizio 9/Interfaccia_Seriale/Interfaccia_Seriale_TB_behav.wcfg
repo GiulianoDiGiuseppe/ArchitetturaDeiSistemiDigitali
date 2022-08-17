@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Interfaccia_Seriale_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Interfaccia_Seriale_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="108237380510441fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="129"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/Interfaccia_Seriale_TB/CLOCK" type="logic">
+      <obj_property name="ElementShortName">CLOCK</obj_property>
+      <obj_property name="ObjectShortName">CLOCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Interfaccia_Seriale_TB/BTN_RESET" type="logic">
+      <obj_property name="ElementShortName">BTN_RESET</obj_property>
+      <obj_property name="ObjectShortName">BTN_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Interfaccia_Seriale_TB/BTN_LOAD" type="logic">
+      <obj_property name="ElementShortName">BTN_LOAD</obj_property>
+      <obj_property name="ObjectShortName">BTN_LOAD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Interfaccia_Seriale_TB/SWITCH" type="array">
+      <obj_property name="ElementShortName">SWITCH[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SWITCH[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Interfaccia_Seriale_TB/LED" type="array">
+      <obj_property name="ElementShortName">LED[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Interfaccia_Seriale_TB/CLOCK_period" type="other">
+      <obj_property name="ElementShortName">CLOCK_period</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Interfaccia_Seriale_TB/uut/Inst_Control_Unit/TBE" type="logic">
+      <obj_property name="ElementShortName">TBE</obj_property>
+      <obj_property name="ObjectShortName">TBE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Interfaccia_Seriale_TB/uut/Inst_Control_Unit/RD" type="logic">
+      <obj_property name="ElementShortName">RD</obj_property>
+      <obj_property name="ObjectShortName">RD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Interfaccia_Seriale_TB/uut/Inst_Control_Unit/RDA" type="logic">
+      <obj_property name="ElementShortName">RDA</obj_property>
+      <obj_property name="ObjectShortName">RDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Interfaccia_Seriale_TB/uut/Inst_Control_Unit/WR" type="logic">
+      <obj_property name="ElementShortName">WR</obj_property>
+      <obj_property name="ObjectShortName">WR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Interfaccia_Seriale_TB/uut/Inst_Control_Unit/LOAD" type="logic">
+      <obj_property name="ElementShortName">LOAD</obj_property>
+      <obj_property name="ObjectShortName">LOAD</obj_property>
+   </wvobject>
+</wave_config>

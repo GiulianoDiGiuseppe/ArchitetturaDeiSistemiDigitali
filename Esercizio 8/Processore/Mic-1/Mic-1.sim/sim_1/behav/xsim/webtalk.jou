@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec 28 11:33:34 2021
+# Process ID: 15179
+# Current directory: /home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.sim/sim_1/behav/xsim/xsim.dir/processor_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/giuseppericcio/Documenti/ASD/Progetti -notrace

@@ -1,0 +1,16 @@
+0.6
+2019.1
+Sep  4 2019
+09:57:52
+C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sim_1/new/tb_Divisore_NonRestoring.vhd,1643893294,vhdl,,,,tb_divisore_nonrestoring,,,,,,,,
+C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/Adder_Subtractor_Nbit.vhd,1643893198,vhdl,,,,adder_subtractor_nbit,,,,,,,,
+C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/Counter.vhd,1643893686,vhdl,,,,counter,,,,,,,,
+C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/Full_adder.vhd,1643893258,vhdl,,,,full_adder,,,,,,,,
+C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/RCA_Nbit .vhd,1643893268,vhdl,,,,rca_nbit,,,,,,,,
+C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/RegisterM.vhd,1643893188,vhdl,,,,registerm,,,,,,,,
+C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/RegisterSAQ.vhd,1643893194,vhdl,,,,registersaq,,,,,,,,
+C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/new/D_Latch.vhd,1643893156,vhdl,,,,d_latch,,,,,,,,
+C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/new/Divisore_NonRestoring.vhd,1643893136,vhdl,,,,divisore_nonrestoring,,,,,,,,
+C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/new/Start_Divisione.vhd,1643893286,vhdl,,,,startdivisione,,,,,,,,
+C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/new/Unita_Controllo.vhd,1643893276,vhdl,,,,unita_controllo,,,,,,,,
+C:/Users/digig/OneDrive - Università di Napoli Federico II/Desktop/ARC/ProgettoASD_2021-22-main/Esercizio 12/Divisore_NonRestoring/Divisore_NonRestoring/Divisore_NonRestoring.srcs/sources_1/new/Unita_Operativa.vhd,1643893166,vhdl,,,,unita_operativa,,,,,,,,

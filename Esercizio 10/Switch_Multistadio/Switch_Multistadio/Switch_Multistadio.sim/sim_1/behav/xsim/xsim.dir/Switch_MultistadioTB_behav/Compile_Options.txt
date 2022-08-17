@@ -1,0 +1,1 @@
+-wto "0b69eee36b104cc3acb2e3ae9bf560f3" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "Switch_MultistadioTB_behav" "xil_defaultlib.Switch_MultistadioTB" -log "elaborate.log" 

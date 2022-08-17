@@ -1,0 +1,16 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sim_1/imports/vhdl/processor_tb.vhd,1640601244,vhdl,,,,processor_tb,,,,,,,,
+/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sim_1/imports/vhdl/system_tb.vhd,1640687076,vhdl,,,,system_tb,,,,,,,,
+/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/alu.vhd,1640601244,vhdl,/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/datapath.vhd,,,alu,,,,,,,,
+/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/common_defs.vhd,1640601244,vhdl,/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sim_1/imports/vhdl/processor_tb.vhd;/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/alu.vhd;/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/control_store.vhd;/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/control_unit.vhd;/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/datapath.vhd;/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/dp_ar_ram.vhd;/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/processor.vhd,,,common_defs,,,,,,,,
+/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/control_store.vhd,1640683662,vhdl,/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/control_unit.vhd,,,control_store,,,,,,,,
+/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/control_unit.vhd,1640601244,vhdl,/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/processor.vhd,,,control_unit,,,,,,,,
+/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/datapath.vhd,1640601244,vhdl,/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/processor.vhd,,,datapath,,,,,,,,
+/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/device_mux.vhd,1640686696,vhdl,/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/system.vhd,,,device_mux,,,,,,,,
+/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/dp_ar_ram.vhd,1640682204,vhdl,/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sim_1/imports/vhdl/processor_tb.vhd,,,dp_ar_ram,,,,,,,,
+/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/processor.vhd,1640601244,vhdl,/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sim_1/imports/vhdl/processor_tb.vhd,,,processor,,,,,,,,
+/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/pwm.vhd,1640686696,vhdl,/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/system.vhd,,,pwm,,,,,,,,
+/home/giuseppericcio/Documenti/ASD/Progetti tesina/Mic-1/Mic-1.srcs/sources_1/imports/vhdl/system.vhd,1640686954,vhdl,,,,system,,,,,,,,

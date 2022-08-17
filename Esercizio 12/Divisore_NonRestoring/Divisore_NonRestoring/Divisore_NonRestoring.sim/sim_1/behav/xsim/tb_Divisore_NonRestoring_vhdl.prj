@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/Adder_Subtractor_Nbit.vhd" \
+"../../../../Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/Counter.vhd" \
+"../../../../Divisore_NonRestoring.srcs/sources_1/new/D_Latch.vhd" \
+"../../../../Divisore_NonRestoring.srcs/sources_1/new/Divisore_NonRestoring.vhd" \
+"../../../../Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/Full_adder.vhd" \
+"../../../../Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/RCA_Nbit .vhd" \
+"../../../../Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/RegisterM.vhd" \
+"../../../../Divisore_NonRestoring.srcs/sources_1/imports/Esercizio10/RegisterSAQ.vhd" \
+"../../../../Divisore_NonRestoring.srcs/sources_1/new/Start_Divisione.vhd" \
+"../../../../Divisore_NonRestoring.srcs/sources_1/new/Unita_Controllo.vhd" \
+"../../../../Divisore_NonRestoring.srcs/sources_1/new/Unita_Operativa.vhd" \
+"../../../../Divisore_NonRestoring.srcs/sim_1/new/tb_Divisore_NonRestoring.vhd" \
+
+# Do not sort compile order
+nosort

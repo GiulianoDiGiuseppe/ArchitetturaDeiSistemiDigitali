@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Switch_Handshaking_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_Switch_Handshaking" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="101272369fs"></ZoomStartTime>
+      <ZoomEndTime time="518804453fs"></ZoomEndTime>
+      <Cursor1Time time="100000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="199"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject type="array" fp_name="/tb_Switch_Handshaking/src">
+      <obj_property name="ElementShortName">src[1:0]</obj_property>
+      <obj_property name="ObjectShortName">src[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Switch_Handshaking/dst">
+      <obj_property name="ElementShortName">dst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dst[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Switch_Handshaking/data">
+      <obj_property name="ElementShortName">data[1:0]</obj_property>
+      <obj_property name="ObjectShortName">data[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Switch_Handshaking/dataout">
+      <obj_property name="ElementShortName">dataout[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group34">
+      <obj_property name="label">nodo_A</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_Switch_Handshaking/dut/inst_A/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_Switch_Handshaking/dut/inst_A/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_Switch_Handshaking/dut/inst_A/enable">
+         <obj_property name="ElementShortName">enable</obj_property>
+         <obj_property name="ObjectShortName">enable</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_Switch_Handshaking/dut/inst_A/pronto_ricevere">
+         <obj_property name="ElementShortName">pronto_ricevere</obj_property>
+         <obj_property name="ObjectShortName">pronto_ricevere</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_A/src_in">
+         <obj_property name="ElementShortName">src_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">src_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_A/data_in">
+         <obj_property name="ElementShortName">data_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_A/src_out">
+         <obj_property name="ElementShortName">src_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">src_out[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_A/data_out">
+         <obj_property name="ElementShortName">data_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_Switch_Handshaking/dut/inst_A/pronto_inviare">
+         <obj_property name="ElementShortName">pronto_inviare</obj_property>
+         <obj_property name="ObjectShortName">pronto_inviare</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/tb_Switch_Handshaking/dut/inst_A/current_state">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group45">
+      <obj_property name="label">nodo_B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_Switch_Handshaking/dut/inst_B/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_Switch_Handshaking/dut/inst_B/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_Switch_Handshaking/dut/inst_B/pronto_inviare">
+         <obj_property name="ElementShortName">pronto_inviare</obj_property>
+         <obj_property name="ObjectShortName">pronto_inviare</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_B/data_out">
+         <obj_property name="ElementShortName">data_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_B/dst_in">
+         <obj_property name="ElementShortName">dst_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">dst_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_B/dst_out">
+         <obj_property name="ElementShortName">dst_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">dst_out[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_Switch_Handshaking/dut/inst_B/pronto_ricevere">
+         <obj_property name="ElementShortName">pronto_ricevere</obj_property>
+         <obj_property name="ObjectShortName">pronto_ricevere</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/tb_Switch_Handshaking/dut/inst_B/current_state">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group54">
+      <obj_property name="label">Switch_Multistadio</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/dst">
+         <obj_property name="ElementShortName">dst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">dst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/src">
+         <obj_property name="ElementShortName">src[1:0]</obj_property>
+         <obj_property name="ObjectShortName">src[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/data0">
+         <obj_property name="ElementShortName">data0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data0[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/data1">
+         <obj_property name="ElementShortName">data1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/data2">
+         <obj_property name="ElementShortName">data2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/data3">
+         <obj_property name="ElementShortName">data3[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data3[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/out0">
+         <obj_property name="ElementShortName">out0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/out1">
+         <obj_property name="ElementShortName">out1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/out2">
+         <obj_property name="ElementShortName">out2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/out3">
+         <obj_property name="ElementShortName">out3[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out3[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/temp0">
+         <obj_property name="ElementShortName">temp0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">temp0[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/temp1">
+         <obj_property name="ElementShortName">temp1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">temp1[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/temp2">
+         <obj_property name="ElementShortName">temp2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">temp2[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_Switch_Handshaking/dut/inst_Switch_Multistadio/temp3">
+         <obj_property name="ElementShortName">temp3[1:0]</obj_property>
+         <obj_property name="ObjectShortName">temp3[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

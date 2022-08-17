@@ -1,0 +1,3 @@
+  .main
+  BIPUSH 0x56
+  .endmethod

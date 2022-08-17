@@ -1,0 +1,22 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto 3f071ffd6e094b4b829f4a7cb44664d9 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.common_defs
+Compiling package ieee.numeric_std
+Compiling architecture dataflow of entity xil_defaultlib.control_store [control_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.control_unit [control_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture structural of entity xil_defaultlib.processor [processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.dp_ar_ram [dp_ar_ram_default]
+Compiling architecture behavioral of entity xil_defaultlib.processor_tb
+Built simulation snapshot processor_tb_behav

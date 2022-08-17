@@ -1,0 +1,28 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto e7b26e18a9ff425c984fba19dc348a82 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_Divisore_NonRestoring_behav xil_defaultlib.tb_Divisore_NonRestoring -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.D_Latch [d_latch_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegisterM [registerm_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegisterSAQ [registersaq_default]
+Compiling architecture dataflow of entity xil_defaultlib.FULL_ADDER [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.RCA_Nbit [\RCA_Nbit(n=9)\]
+Compiling architecture structural of entity xil_defaultlib.ADDER_SUBTRACTOR_Nbit [adder_subtractor_nbit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Counter [counter_default]
+Compiling architecture structural of entity xil_defaultlib.Unita_Operativa [unita_operativa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Unita_Controllo [unita_controllo_default]
+Compiling architecture behavioral of entity xil_defaultlib.StartDivisione [startdivisione_default]
+Compiling architecture structural of entity xil_defaultlib.Divisore_NonRestoring [divisore_nonrestoring_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_divisore_nonrestoring
+Built simulation snapshot tb_Divisore_NonRestoring_behav

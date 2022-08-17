@@ -1,0 +1,22 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Adder_Subtractor_Nbit.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Anodes_manager.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Cathodes_manager.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Clock_Filter.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Clock_filter_display.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/ControlUnit.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Converter.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Counter.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Counter_mod4.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Datapath.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Debouncer.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Full_adder.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/RCA_Nbit .vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/RegisterM.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/RegisterSAQ.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Seven_segment_array.vhd" \
+"../../../../Divisore_NON_RES.srcs/sources_1/imports/Esercizio10/Divider_On_Board.vhd" \
+
+# Do not sort compile order
+nosort

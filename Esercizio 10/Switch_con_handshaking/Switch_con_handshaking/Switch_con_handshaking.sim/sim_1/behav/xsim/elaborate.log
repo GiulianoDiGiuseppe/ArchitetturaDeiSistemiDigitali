@@ -1,0 +1,23 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 1ac8550e629f4d96acbf5fe1fafc35ec --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_Switch_Handshaking_behav xil_defaultlib.tb_Switch_Handshaking -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture dataflow of entity xil_defaultlib.Mux2_1 [mux2_1_default]
+Compiling architecture dataflow of entity xil_defaultlib.Demux1_2 [demux1_2_default]
+Compiling architecture structural of entity xil_defaultlib.Cell [cell_default]
+Compiling architecture structural of entity xil_defaultlib.Datapath [datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.nodo_A [nodo_a_default]
+Compiling architecture behavioral of entity xil_defaultlib.nodo_B [nodo_b_default]
+Compiling architecture dataflow of entity xil_defaultlib.Mux4_1 [mux4_1_default]
+Compiling architecture dataflow of entity xil_defaultlib.Demux1_4 [demux1_4_default]
+Compiling architecture structural of entity xil_defaultlib.Switch_Handshaking [switch_handshaking_default]
+Compiling architecture tb of entity xil_defaultlib.tb_switch_handshaking
+Built simulation snapshot tb_Switch_Handshaking_behav

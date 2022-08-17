@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Divisore_NonRestoring_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_Divisore_NonRestoring" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2000000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="216"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_Divisore_NonRestoring/CLOCK" type="logic">
+      <obj_property name="ElementShortName">CLOCK</obj_property>
+      <obj_property name="ObjectShortName">CLOCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Divisore_NonRestoring/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Divisore_NonRestoring/X" type="array">
+      <obj_property name="ElementShortName">X[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Divisore_NonRestoring/Y" type="array">
+      <obj_property name="ElementShortName">Y[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Divisore_NonRestoring/BTN_START" type="logic">
+      <obj_property name="ElementShortName">BTN_START</obj_property>
+      <obj_property name="ObjectShortName">BTN_START</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Divisore_NonRestoring/Q" type="array">
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group182" type="group">
+      <obj_property name="label">UC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UC/START" type="logic">
+         <obj_property name="ElementShortName">START</obj_property>
+         <obj_property name="ObjectShortName">START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UC/S_BUF" type="array">
+         <obj_property name="ElementShortName">S_BUF[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_BUF[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UC/COUNT" type="logic">
+         <obj_property name="ElementShortName">COUNT</obj_property>
+         <obj_property name="ObjectShortName">COUNT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UC/LOAD_SA" type="logic">
+         <obj_property name="ElementShortName">LOAD_SA</obj_property>
+         <obj_property name="ObjectShortName">LOAD_SA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UC/LOAD_Q" type="logic">
+         <obj_property name="ElementShortName">LOAD_Q</obj_property>
+         <obj_property name="ObjectShortName">LOAD_Q</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UC/SHIFT" type="logic">
+         <obj_property name="ElementShortName">SHIFT</obj_property>
+         <obj_property name="ObjectShortName">SHIFT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UC/ENABLE_C" type="logic">
+         <obj_property name="ElementShortName">ENABLE_C</obj_property>
+         <obj_property name="ObjectShortName">ENABLE_C</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UC/ENABLE_EXIT" type="logic">
+         <obj_property name="ElementShortName">ENABLE_EXIT</obj_property>
+         <obj_property name="ObjectShortName">ENABLE_EXIT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UC/SUB" type="logic">
+         <obj_property name="ElementShortName">SUB</obj_property>
+         <obj_property name="ObjectShortName">SUB</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UC/INIT_COUNT" type="logic">
+         <obj_property name="ElementShortName">INIT_COUNT</obj_property>
+         <obj_property name="ObjectShortName">INIT_COUNT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UC/CURRENT_STATE" type="other">
+         <obj_property name="ElementShortName">CURRENT_STATE</obj_property>
+         <obj_property name="ObjectShortName">CURRENT_STATE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UC/NEXT_STATE" type="other">
+         <obj_property name="ElementShortName">NEXT_STATE</obj_property>
+         <obj_property name="ObjectShortName">NEXT_STATE</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group183" type="group">
+      <obj_property name="label">UO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/SAQ" type="array">
+         <obj_property name="ElementShortName">SAQ[14:0]</obj_property>
+         <obj_property name="ObjectShortName">SAQ[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/M" type="array">
+         <obj_property name="ElementShortName">M[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/INIT" type="logic">
+         <obj_property name="ElementShortName">INIT</obj_property>
+         <obj_property name="ObjectShortName">INIT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/ENABLE_M" type="logic">
+         <obj_property name="ElementShortName">ENABLE_M</obj_property>
+         <obj_property name="ObjectShortName">ENABLE_M</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/ENABLE_C" type="logic">
+         <obj_property name="ElementShortName">ENABLE_C</obj_property>
+         <obj_property name="ObjectShortName">ENABLE_C</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/INIT_C" type="logic">
+         <obj_property name="ElementShortName">INIT_C</obj_property>
+         <obj_property name="ObjectShortName">INIT_C</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/LOAD_SA" type="logic">
+         <obj_property name="ElementShortName">LOAD_SA</obj_property>
+         <obj_property name="ObjectShortName">LOAD_SA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/LOAD_Q" type="logic">
+         <obj_property name="ElementShortName">LOAD_Q</obj_property>
+         <obj_property name="ObjectShortName">LOAD_Q</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/SHIFT" type="logic">
+         <obj_property name="ElementShortName">SHIFT</obj_property>
+         <obj_property name="ObjectShortName">SHIFT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/SUB" type="logic">
+         <obj_property name="ElementShortName">SUB</obj_property>
+         <obj_property name="ObjectShortName">SUB</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/Q" type="array">
+         <obj_property name="ElementShortName">Q[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/R" type="array">
+         <obj_property name="ElementShortName">R[7:0]</obj_property>
+         <obj_property name="ObjectShortName">R[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/S" type="array">
+         <obj_property name="ElementShortName">S[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/COUNT" type="logic">
+         <obj_property name="ElementShortName">COUNT</obj_property>
+         <obj_property name="ObjectShortName">COUNT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/Y_TEMP" type="array">
+         <obj_property name="ElementShortName">Y_TEMP[17:0]</obj_property>
+         <obj_property name="ObjectShortName">Y_TEMP[17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/M_TEMP" type="array">
+         <obj_property name="ElementShortName">M_TEMP[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M_TEMP[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/OP_1_TEMP" type="array">
+         <obj_property name="ElementShortName">OP_1_TEMP[8:0]</obj_property>
+         <obj_property name="ObjectShortName">OP_1_TEMP[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/RIS_TEMP" type="array">
+         <obj_property name="ElementShortName">RIS_TEMP[8:0]</obj_property>
+         <obj_property name="ObjectShortName">RIS_TEMP[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/X_Q_TEMP" type="logic">
+         <obj_property name="ElementShortName">X_Q_TEMP</obj_property>
+         <obj_property name="ObjectShortName">X_Q_TEMP</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_UO/N" type="other">
+         <obj_property name="ElementShortName">N</obj_property>
+         <obj_property name="ObjectShortName">N</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group184" type="group">
+      <obj_property name="label">START_DIV</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/X" type="array">
+         <obj_property name="ElementShortName">X[7:0]</obj_property>
+         <obj_property name="ObjectShortName">X[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/Y" type="array">
+         <obj_property name="ElementShortName">Y[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Y[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/BTN_START" type="logic">
+         <obj_property name="ElementShortName">BTN_START</obj_property>
+         <obj_property name="ObjectShortName">BTN_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/SAQ" type="array">
+         <obj_property name="ElementShortName">SAQ[14:0]</obj_property>
+         <obj_property name="ObjectShortName">SAQ[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/M" type="array">
+         <obj_property name="ElementShortName">M[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/START" type="logic">
+         <obj_property name="ElementShortName">START</obj_property>
+         <obj_property name="ObjectShortName">START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/ENABLE_SAQ" type="logic">
+         <obj_property name="ElementShortName">ENABLE_SAQ</obj_property>
+         <obj_property name="ObjectShortName">ENABLE_SAQ</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/ENABLE_M" type="logic">
+         <obj_property name="ElementShortName">ENABLE_M</obj_property>
+         <obj_property name="ObjectShortName">ENABLE_M</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/ERR" type="logic">
+         <obj_property name="ElementShortName">ERR</obj_property>
+         <obj_property name="ObjectShortName">ERR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/ERR_TEMP" type="logic">
+         <obj_property name="ElementShortName">ERR_TEMP</obj_property>
+         <obj_property name="ObjectShortName">ERR_TEMP</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/M_TEMP" type="array">
+         <obj_property name="ElementShortName">M_TEMP[7:0]</obj_property>
+         <obj_property name="ObjectShortName">M_TEMP[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/N" type="other">
+         <obj_property name="ElementShortName">N</obj_property>
+         <obj_property name="ObjectShortName">N</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/Inst_StartDivisione/CONST" type="other">
+         <obj_property name="ElementShortName">CONST</obj_property>
+         <obj_property name="ObjectShortName">CONST</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group185" type="group">
+      <obj_property name="label">D_LATCH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/inst_D_Latch/Q" type="array">
+         <obj_property name="ElementShortName">Q[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/inst_D_Latch/ENABLE" type="logic">
+         <obj_property name="ElementShortName">ENABLE</obj_property>
+         <obj_property name="ObjectShortName">ENABLE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/inst_D_Latch/RESET" type="logic">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Divisore_NonRestoring/uut/inst_D_Latch/D" type="array">
+         <obj_property name="ElementShortName">D[7:0]</obj_property>
+         <obj_property name="ObjectShortName">D[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
